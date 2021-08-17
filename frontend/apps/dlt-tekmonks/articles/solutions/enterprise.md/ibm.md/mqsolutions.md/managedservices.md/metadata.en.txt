@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+    {
+  	"@context": "http://schema.org",
+  	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+  	"name": "MQ Managed Services",
+  	"description": "IBM MQ software is a critical facet of MQ managed services. Put simply, this middleware improves the integration of business data and various applications across different platforms. Some of the best managed services IBM has to offer are the safe and secure transfer of data and information; these safe and secure transfers can take place via services, systems, files, applications, etc. These services of IBM, in turn, allow for enterprises to better meet their needs and conduct business more effectively.",
+  	"image": [{
+  		"@type": "ImageObject",
+  		"url": "https://tekmonks.com/apps/tekmonks/articles/solutions/enterprise.md/ibm.md/mqsolutions.md/managedservices.md/header.en.png",
+  		"name": "MQ Managed Services",
+  		"description": "IBM MQ software is a critical facet of MQ managed services. Put simply, this middleware improves the integration of business data and various applications across different platforms. Some of the best managed services IBM has to offer are the safe and secure transfer of data and information; these safe and secure transfers can take place via services, systems, files, applications, etc. These services of IBM, in turn, allow for enterprises to better meet their needs and conduct business more effectively.",
+  		"keywords": ["ibm mq", "ibm websphere mq", "ibm mq software", "mq server", "ibm websphere mq", "ibm mq server", "mq services", "ibm mq suppor"],
+  		"copyrightHolder": {
+  			"@type": "Organization",
+  			"name": "TekMonks",
+  			"url": "https://tekmonks.com"
+  		}
+  	}],
+  	"publisher": {
+  		"@type": "Organization",
+  		"name": "TekMonks",
+  		"url": "https://tekmonks.com"
+  	},
+  	"keywords": ["ibm mq", "ibm websphere mq", "ibm mq software", "mq server", "ibm websphere mq", "ibm mq server", "mq services", "ibm mq support"]
+  }
+</script>

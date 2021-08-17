@@ -1,0 +1,25 @@
+<script type="application/ld+json">
+  {
+	"@context": "http://schema.org",
+	"@type": "Article",
+	"description": "Are you excited to work with an organization you can grow with? Are you interested in being part of a company that is ACTUALLY ahead of the curve?",
+	"image": [{
+		"@type": "ImageObject",
+		"url": "/articles/company/joinourteam.md/header.en.png",
+		"name": "Join Our Team",
+		"description": "Are you excited to work with an organization you can grow with? Are you interested in being part of a company that is ACTUALLY ahead of the curve?",
+		"keywords": ["join our team"],
+		"copyrightHolder": {
+			"@type": "Organization",
+			"name": "TekMonks",
+			"url": "https://tekmonks.com"
+		}
+	}],
+	"publisher": {
+		"@type": "Organization",
+		"name": "TekMonks",
+		"url": "https://tekmonks.com"
+	},
+	"keywords": ["join our team"]
+}
+</script>

@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+  {
+	"@context": "http://schema.org",
+	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+	"name": "TeleWorkr",
+	"description": "The world’s first and by far all in-one digital office. To fix the issues surrounding remote work and productivity, companies must invest in a comprehensive product that touches on imperative social psychology needs. TeleWorkr does just that, paving the way for remote work to be a viable option.",
+	"image": [{
+  		"@type": "ImageObject",
+  		"url": "https://tekmonks.com/apps/tekmonks/articles/products/telefamily.md/teleworkr.md/header.md/header.en.png",
+  		"name": "TeleWorkr",
+  		"description": "The world’s first and by far all in-one digital office. To fix the issues surrounding remote work and productivity, companies must invest in a comprehensive product that touches on imperative social psychology needs. TeleWorkr does just that, paving the way for remote work to be a viable option.",
+  		"keywords": ["teleworkr"],
+  		"copyrightHolder": {
+  			"@type": "Organization",
+  			"name": "TekMonks",
+  			"url": "https://tekmonks.com"
+  		}
+  	}],
+  	"publisher": {
+  		"@type": "Organization",
+  		"name": "TekMonks",
+  		"url": "https://tekmonks.com"
+  	},
+	"keywords": ["teleworkr"]
+}
+</script>

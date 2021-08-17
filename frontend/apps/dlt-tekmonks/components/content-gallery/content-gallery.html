@@ -1,0 +1,110 @@
+<!--
+/* 
+ * (C) 2019 TekMonks. All rights reserved.
+ * License: MIT - see enclosed license.txt file.
+ */
+ -->
+
+ <style>
+    body{margin: 0 auto; width: 100%;}
+    
+    .main {
+        padding-bottom: 50px;
+        text-align: justify;
+        display: cell;
+        align-content: middle;
+        overflow: hidden;
+        max-height: 400px;
+    }
+    
+    .main > p+p {
+        display: none;
+    }
+    
+    .main > h1 {
+        font-weight: 400;
+    }
+    
+    .main > p > strong {
+        font-weight: normal;
+    }
+    
+    .main > p > img {
+        height: 400px;
+        float: left;
+        margin-right: 15px;
+        top: 0px;
+    }
+    
+    .heading {
+        padding: 40px 0px 10px 0px;
+        width: 100%;
+        font-size: 1.2em;
+    }
+    
+    .row {
+        display: flex;
+        padding-bottom: 40px;
+    }
+    
+    .cell {
+        overflow: hidden;
+        display: flex;
+          flex-direction: column;
+          justify-content: top;
+          text-align: center;
+        margin-right: 25px;
+    }
+    
+    .cell:last-child {
+        margin-right: 0px;
+    }
+    
+    .cell > p {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .cell > p > strong {
+        display: none;
+    }
+    
+    .cell > h1 {
+        font-weight: normal;
+        font-size: 1.5em;
+        margin: 0;
+    }
+    
+    .cell > p+p {
+        display: none;
+    }
+    
+    .cell > p > img {
+        width: 100%;
+        padding: 0px;
+    }
+    </style>
+    
+    {{{styleCellWidth}}}
+    
+    {{{styleBody}}}  <!-- This inserts the styleBody defined in element attribue, as elementConnected sets this as component data -->
+    
+    <script></script>
+    
+    {{#main}}
+    <div class="main" onclick="location.href='{{{link}}}'">{{{content}}}</div>
+    {{/main}}
+    
+    {{#subcontent}}
+    {{#heading}}
+    <div class="heading"><a href="{{{link}}}">{{{content}}}</a></div>
+    {{/heading}}
+    
+    {{#rows}}
+    <div class="row">
+    {{#.}}
+    <span class="cell" id="{{{id}}}" onclick="location.href='{{{link}}}'">{{{content}}}</span>
+    {{/.}}
+    </div>
+    {{/rows}}
+    {{/subcontent}}

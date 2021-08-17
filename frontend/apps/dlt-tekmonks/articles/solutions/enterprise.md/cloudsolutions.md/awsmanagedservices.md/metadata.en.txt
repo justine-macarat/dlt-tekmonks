@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+  {
+	"@context": "http://schema.org",
+	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+	"name": "Amazon Cloud Services",
+	"description": "Simplifying the process of web-scale cloud computing has never been easier for enterprises. In a nutshell, this service helps enterprises manage Amazon cloud by gaining control of computing resources; it also helps enterprises scale capacity according to computing mandates and operate new server instances.",
+       	"image": [{
+		"@type": "ImageObject",
+		"url": "https://tekmonks.com/apps/tekmonks/articles/solutions/enterprise.md/cloudsolutions.md/awsmanagedservices.md/header.en.png",
+		"name": "Amazon Cloud Services",
+		"description": "Simplifying the process of web-scale cloud computing has never been easier for enterprises. In a nutshell, this service helps enterprises manage Amazon cloud by gaining control of computing resources; it also helps enterprises scale capacity according to computing mandates and operate new server instances..",
+		"keywords": ["amazon cloud services", "amazon cloud management", "amazon cloud web services", "amazon web services cloud"],
+		"copyrightHolder": {
+			"@type": "Organization",
+			"name": "TekMonks",
+			"url": "https://tekmonks.com"
+		}
+	}],
+	"publisher": {
+		"@type": "Organization",
+		"name": "TekMonks",
+		"url": "https://tekmonks.com"
+	},
+	"keywords": ["amazon cloud services", "amazon cloud management", "amazon cloud web services", "amazon web services cloud"]
+}
+</script>

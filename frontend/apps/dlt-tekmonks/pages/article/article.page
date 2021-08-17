@@ -1,0 +1,64 @@
+SCHEMA
+======
+{
+    "metadata": {"html":"page-meta", "files":"./articles/{{url.article_path}}/metadata.{{lang}}.txt"},
+
+    "navbar": {"html":"navigation-menu", "level":".menus/{{lang}}", "logo":"./articles/.home/logo.png/logo.png", "massage_menu":"true", "styleBody":"url(./pages/home/navbar.styleBody.css)", "logo_style":"width:70px;"},
+    
+    "headerimg": {"html":"img", "src":"./articles/{{url.article_path}}/header.{{lang}}.png", "style":"width:100%; object-fit:cover"},
+    
+    "content": {"html":"content-post", "article":"{{url.article_path}}", "id":"content", "style":"display:inline-block;padding-bottom:40px;background:rgba(255,255,255);padding-top:20px;padding-left:80px;padding-right:80px;", "styleBody":"url(./pages/article/article.styleBody.css)", "styleContainer":"display:inline-block;"},
+    
+    "sidebar": {"html":"page-generator", "file":"./pages/article/article.sidebar", "id":"sidebar"},
+    
+    "footer": {"html":"content-post", "article":".home/footer.md", "id":"footer", "styleContainer":"background:rgba(255, 255, 255);color:white;height:270px", "styleArticle":"url(./pages/common/footer.styleArticle.css)"},
+    
+    "copyrights": {"html":"content-post", "article":".home/copyright.md", "id":"copyright", "styleContainer":"background:white;height:60px;color:#787878;", "styleArticle":"url(./pages/common/copyrights.styleArticle.css)"}
+}
+======
+
+
+LAYOUT
+=================
+-----------------------------
+| metadata                  |
+-----------------------------
+| navbar                    |
+-----------------------------
+| headerimg                 |
+-----------------------------
+| content    |  sidebar     |
+-----------------------------
+| footer                    |
+-----------------------------
+| copyrights                |
+-----------------------------
+=================
+Row Heights = 0px, 50px, auto, auto, 270px, 60px
+Col Widths = 78%, 22%
+=================
+
+
+CSS CLASSES
+===========
+CONTAINER CLASSES = grid-container-extension
+ITEM CLASSES = grid-item-extension
+PER ITEM CLASS = class
+===========
+
+CSS
+=======
+.grid-container-extension {
+    height: 100%;
+}
+
+.grid-item-extension {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+body {
+    margin: 0%;
+}
+
+.class-sidebar { padding-right: 40px; }
+=======

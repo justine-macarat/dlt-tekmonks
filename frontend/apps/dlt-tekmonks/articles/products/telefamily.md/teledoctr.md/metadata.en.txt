@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+  {
+	"@context": "http://schema.org",
+	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+	"name": "TeleDoctr",
+	"description": "Solution by TekMonks on Health Care Challenges. Collaboration from the medical professionals ranging from doctors, specialists, nurses, laboratory technicians, and pharmacists to admission/hospital records as well as billing, other charges and collection gathered as important information. Well managed virtually and privately secured to make a clinical procedure for patients with illness or injuries.",
+	"image": [{
+		"@type": "ImageObject",
+		"url": "https://tekmonks.com/apps/tekmonks/articles/products/telefamily.md/teledoctr.md/header.md/header.en.png",
+		"name": "TeleDoctr",
+		"description": "Solution by TekMonks on Health Care Challenges. Collaboration from the medical professionals ranging from doctors, specialists, nurses, laboratory technicians, and pharmacists to admission/hospital records as well as billing, other charges and collection gathered as important information. Well managed virtually and privately secured to make a clinical procedure for patients with illness or injuries",
+		"keywords": ["teledoctr"],
+		"copyrightHolder": {
+			"@type": "Organization",
+			"name": "TekMonks",
+			"url": "https://tekmonks.com"
+		}
+	}],
+	"publisher": {
+		"@type": "Organization",
+		"name": "TekMonks",
+		"url": "https://tekmonks.com"
+	},
+	"keywords": ["teledoctr"]
+}
+</script>

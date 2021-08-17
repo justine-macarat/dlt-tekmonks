@@ -1,0 +1,135 @@
+<!--
+/* 
+ * (C) 2019 TekMonks. All rights reserved.
+ * License: MIT - see enclosed license.txt file.
+ */
+ -->
+ <style>
+    body{margin: 0 auto;}
+    
+    div#slider { overflow: hidden; height: 100%; position: relative;}
+    div#slider figure img article { width: 10%; float: left; height: 100%;}
+    div#slider figure { 
+      position: relative;
+      width: 100%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+    }
+    
+    div#container:hover .nav-dots { 
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .nav-dots {
+        width: 100%;
+        bottom: 10px;
+        height: 11px;
+        display: block;
+        position: absolute;
+        text-align: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0.3s linear,opacity 0.3s linear;
+    }
+    
+    .nav-dots .nav-dot {
+        top: -5px;
+        width: 11px;
+        height: 11px;
+        margin: 0 4px;
+        position: relative;
+        border-radius: 100%;
+        display: inline-block;
+        background-color: rgba(255, 255, 255, 0.6);
+        cursor: pointer;
+    }
+    
+    .nav-dots .nav-dot:hover {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    
+    .nav-dot-selected {
+        background-color: rgba(255, 255, 255, 0.9) !important;
+    }
+    
+    div#container:hover .left-arrow { 
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .left-arrow {
+        margin: 0px;
+        display: block;
+        position: absolute;
+          top:50%;
+          transform:translateY(-50%); 
+        left: 1%;
+        font-size: 40px;
+        background: rgba(255, 255, 255, 0.6);
+        height: 55px;
+        border-radius: 25px;
+        font-family: sans-serif;
+        color: rgba(0, 0, 0, 0.45);
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0.3s linear,opacity 0.3s linear;
+        cursor: pointer;
+    }
+    
+    div#container:hover .right-arrow { 
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    .right-arrow {
+        margin: 0px;
+        display: block;
+        position: absolute;
+          top:50%;
+          transform:translateY(-50%); 
+        right: 1%;
+        font-size: 40px;
+        background: rgba(255, 255, 255, 0.6);
+        height: 55px;
+        border-radius: 25px;
+        font-family: sans-serif;
+        color: rgba(0, 0, 0, 0.45);
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0.3s linear,opacity 0.3s linear;
+        cursor: pointer;
+    }
+    
+    .caption {
+        position: absolute; 
+        font-family: sans-serif;
+        font-size: 12px;
+        display: inline;
+    }
+    
+    .relative {
+        position: relative;
+        display: inline;
+    }
+    
+    
+    </style>
+    
+    {{{styleBody}}}  <!-- This inserts the styleBody defined in element attribue, as elementConnected sets this as component data -->
+    
+    <div id="container">
+    <div id="slider">
+    <figure>
+    <!--<img src="<url>" alt>-->
+    </figure>
+    
+    <li class="nav-dots" id="nav-dots">
+    <!--<label class="nav-dot" id="1"></label>-->
+    </li>
+    
+    <div class="left-arrow">&nbsp;‹&nbsp;</div>
+    <div class="right-arrow">&nbsp;›&nbsp;</div>
+    </div>
+    </div>

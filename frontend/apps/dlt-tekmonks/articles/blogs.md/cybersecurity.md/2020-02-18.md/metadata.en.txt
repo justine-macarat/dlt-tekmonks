@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The Impact of The Iranian Crisis on Cybersecurity",
+  "description": "On 3 January 2020, a U.S. drone strike was carried out near Baghdad airport that targeted and killed Maj. Gen Qassim Suleimani",
+  "image": "",  
+  "author": {
+    "@type": "Person",
+    "name": "Abby Rose"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "TekMonks",
+    "logo": {
+      "@type": "ImageObject",
+      "url": ""
+    }
+  },
+  "datePublished": "2019-02-18"
+}
+</script>

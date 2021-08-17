@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+ {
+	"@context": "http://schema.org",
+	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+	"name": "API400",
+	"description": "The Fountain of Youth for Legacy Systems.",
+	"image": [{
+		"@type": "ImageObject",
+		"url": "https://tekmonks.com/apps/tekmonks/articles/products/api400.md/header.md/header.en.png",
+		"name": "API400",
+		"description": "API400",
+		"keywords": ["API for AS400", "API AS400", "API AS400", "REST API", "REST API for AS/400", "Web Services for iSeries", "Web Services for AS400"],
+		"copyrightHolder": {
+			"@type": "Organization",
+			"name": "TekMonks",
+			"url": "https://tekmonks.com"
+		}
+	}],
+	"publisher": {
+		"@type": "Organization",
+		"name": "TekMonks",
+		"url": "https://tekmonks.com"
+	},
+	"keywords": ["API for AS400", "API AS400", "API AS400", "REST API", "REST API for AS/400", "Web Services for iSeries", "Web Services for AS400"]
+}
+</script>

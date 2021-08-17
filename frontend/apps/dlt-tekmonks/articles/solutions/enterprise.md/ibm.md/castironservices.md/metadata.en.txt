@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+	"name": "IBM Cast Iron Services",
+	"description": "IBM cast iron services reduce integration costs, integrate cloud and on-premise applications faster, optimize software as it pertains to service (SaaS) and cloud models, and simplify and clean up the integration process across multiple platforms, data and cloud management, etc. Clients will undoubtedly appreciate IBM cast iron services.",
+		"image": [{
+		"@type": "ImageObject",
+		"url": "https://tekmonks.com/apps/tekmonks/articles/solutions/enterprise.md/ibm.md/castironservices.md/header.en.png",
+		"name": "IBM Cast Iron Services",
+		"description": "IBM cast iron services reduce integration costs, integrate cloud and on-premise applications faster, optimize software as it pertains to service (SaaS) and cloud models, and simplify and clean up the integration process across multiple platforms, data and cloud management, etc. Clients will undoubtedly appreciate IBM cast iron services",
+		"keywords": ["cast iron services", "ibm cast iron"],
+		"copyrightHolder": {
+			"@type": "Organization",
+			"name": "TekMonks",
+			"url": "https://tekmonks.com"
+		}
+	}],
+	"publisher": {
+		"@type": "Organization",
+		"name": "TekMonks",
+		"url": "https://tekmonks.com"
+	},
+	"keywords": ["cast iron services", "ibm cast iron"]
+}
+</script>

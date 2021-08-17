@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Passwords to Passphrases- The Right Authentication",
+  "description": "LoginCat is a preeminent zero trust security model by TekMonks that is necessary in order to establish the minimization of authentication and security gaps. With zero trust and passphrase systems, LoginCat would act as a safety net in alarming breaches such as Capital One’s.",
+  "image": "",  
+  "author": {
+    "@type": "Person",
+    "name": "Olivia Mandell"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "TekMonks",
+    "logo": {
+      "@type": "ImageObject",
+      "url": ""
+    }
+  },
+  "datePublished": "2019-08-22"
+}
+</script>

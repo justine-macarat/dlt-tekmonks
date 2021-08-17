@@ -1,0 +1,29 @@
+<script type="application/ld+json">
+ {
+  	"@context": "http://schema.org",
+  	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+  	"name": "ASB - API Service Bus",
+  	"description": "A full service, fast growing, and highly skilled technology firm. US founded and headquartered in Washington DC. Work with largest Fortune 500 companies worldwide. Zero debt company with a de-risked operating model, maintaining  two years of operating cash reserves. 98% rate of repeat business, history of success and satisfied clients. ISO 9001:2015 QMS certified. Strong partnerships with AWS, Azure, Microsoft, IBM etc.",
+  	"image": [{
+  		"@type": "ImageObject",
+  		"url": "https://tekmonks.com/apps/tekmonks/articles/products/asb.md/header.md/header.en.png",
+  		"name": "ASB - API Service Bus",
+  		"description": "Integration Bus for Modern API Based",
+  		"keywords": ["asb, Api Service Bus"],
+  		"copyrightHolder": {
+  			"@type": "Organization",
+  			"name": "TekMonks",
+  			"url": "https://tekmonks.com"
+  		}
+  	}],
+  	"publisher": {
+  		"@type": "Organization",
+  		"name": "TekMonks",
+  		"url": "https://tekmonks.com"
+  	},
+  	"keywords": ["asb, Api Service Bus"]
+  }</script>

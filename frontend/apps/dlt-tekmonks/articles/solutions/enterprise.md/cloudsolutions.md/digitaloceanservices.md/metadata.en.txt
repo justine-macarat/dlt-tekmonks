@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+  {
+	"@context": "http://schema.org",
+	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+	"name": "Digital Ocean Services",
+	"description": "Leading cloud service provider based in the United States of America. It is a unique cloud hosting provider that offers cloud computing services to business entities so that they can scale themselves by deploying DigitalOcean applications that run parallel across multiple cloud servers without compromising on performance!",
+	"image": [{
+		"@type": "ImageObject",
+		"url": "https://tekmonks.com/apps/tekmonks/articles/solutions/enterprise.md/cloudsolutions.md/digitaloceanservices.md/header.en.png",
+		"name": "Digital Ocean Services",
+		"description": "Leading cloud service provider based in the United States of America. It is a unique cloud hosting provider that offers cloud computing services to business entities so that they can scale themselves by deploying DigitalOcean applications that run parallel across multiple cloud servers without compromising on performance!",
+		"keywords": ["digital ocean services"],
+		"copyrightHolder": {
+			"@type": "Organization",
+			"name": "TekMonks",
+			"url": "https://tekmonks.com"
+		}
+	}],
+	"publisher": {
+		"@type": "Organization",
+		"name": "TekMonks",
+		"url": "https://tekmonks.com"
+	},
+	"keywords": ["digital ocean services"]
+}
+</script>

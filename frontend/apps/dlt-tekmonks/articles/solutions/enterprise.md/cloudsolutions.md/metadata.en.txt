@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+       {
+  	"@context": "http://schema.org",
+  	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+  	"name": "Cloud Solutions",
+  	"description": "Cloud Solutions",
+  	"image": [{
+		"@type": "ImageObject",
+		"url": "https://tekmonks.com/apps/tekmonks/articles/products/enterprise.md/cloudsolutions.md/header.en.png",
+		"name": "Cloud Solutions",
+		"description": "Cloud Solutions",
+		"keywords": ["aws managed services", "microsoft azure services", "ibm bluemix services", "digital ocean services"],
+		"copyrightHolder": {
+			"@type": "Organization",
+			"name": "TekMonks",
+			"url": "https://tekmonks.com"
+		}
+	}],
+	"publisher": {
+		"@type": "Organization",
+		"name": "TekMonks",
+		"url": "https://tekmonks.com"
+	},
+  	"keywords": ["aws managed services", "microsoft azure services", "ibm bluemix services", "digital ocean services"]
+  }
+</script>

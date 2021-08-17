@@ -1,0 +1,49 @@
+SCHEMA
+======
+{
+    "navbar": {"html":"navigation-menu", "level":".menus/{{lang}}", "logo":"./articles/.home/logo.png/logo.png", "massage_menu":"true", "styleBody":"url(./pages/home/navbar.styleBody.css)", "logo_style":"width:70px;"},
+    "bloglist": {"html":"content-post", "article":"{{url.blogs_path}}", "id":"bloglist", "style":"display:inline-block;background:white;width:100%;text-align: -webkit-center;", "styleBody":"url(./pages/blogs/bloglist/blogList.styleBody.css)"},
+    "footer": {"html":"content-post", "article":".home/footer.md", "id":"footer", "styleContainer":"background:rgba(255, 255, 255);color:white;height:270px", "styleArticle":"url(./pages/common/footer.styleArticle.css)"},
+    "copyrights": {"html":"content-post", "article":".home/copyright.md", "id":"copyright", "styleContainer":"background:white;height:60px;color:#787878;", "styleArticle":"url(./pages/common/copyrights.styleArticle.css)"}
+}
+======
+
+
+LAYOUT
+=================
+-----------------------------
+| navbar                    |
+-----------------------------
+| bloglist                  |
+-----------------------------
+| footer                    |
+-----------------------------
+| copyrights                |
+-----------------------------
+=================
+Row Heights = 50px, auto 270px, 60px
+Col Widths = 100%
+=================
+
+
+CSS CLASSES
+===========
+CONTAINER CLASSES = grid-container-extension
+ITEM CLASSES = grid-item-extension
+PER ITEM CLASS = class
+===========
+
+CSS
+=======
+.grid-container-extension {
+    height: 100%;
+}
+
+.grid-item-extension {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+body {
+    margin: 0%;
+}
+=======

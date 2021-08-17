@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+    {
+  	"@context": "http://schema.org",
+  	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+  	"name": "TekMonks Linux Managed Services Overview",
+  	"description": "Linux services pertain to the Enterprise Data Centers’ server platform; unfortunately, this can be problematic for IT staffers who are not yet familiar with this platform. Regardless of how big or small your servers or environments are, TekMonks Linux server management services will be of value. Each provided Linux service comes with tailored consultations and the provision of the following services",
+   	"image": [{
+  		"@type": "ImageObject",
+  		"url": "https://tekmonks.com/apps/tekmonks/articles/solutions/enterprise.md/redhat.md/header.en.png",
+  		"name": "TekMonks Linux Managed Services Overview",
+  		"description": "Linux services pertain to the Enterprise Data Centers’ server platform; unfortunately, this can be problematic for IT staffers who are not yet familiar with this platform. Regardless of how big or small your servers or environments are, TekMonks Linux server management services will be of value. Each provided Linux service comes with tailored consultations and the provision of the following services",
+  		"keywords": ["linux service"],
+  		"copyrightHolder": {
+  			"@type": "Organization",
+  			"name": "TekMonks",
+  			"url": "https://tekmonks.com"
+  		}
+  	}],
+  	"publisher": {
+  		"@type": "Organization",
+  		"name": "TekMonks",
+  		"url": "https://tekmonks.com"
+  	},
+  	"keywords": ["linux service"]
+  }
+</script>

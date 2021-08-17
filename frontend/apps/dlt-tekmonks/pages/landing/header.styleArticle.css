@@ -1,0 +1,44 @@
+@media (min-width: 381px) and (max-width: 967px) {
+  
+    img {
+        margin-left: -30px;
+        height: 270px;
+        float: none;
+    }
+
+    td {
+        text-align: center !important;
+    }
+
+    td p {
+        font-size: 30px;
+        margin-right: 20px;
+        padding: 50px 0 0;
+    }
+    
+}
+
+
+@media (min-width: 320px) and (max-width: 380px) {
+
+    body {
+        padding: 0;
+    }
+
+    img {
+        padding-bottom: 50px;
+        float: left;
+        height: 290px;
+        margin-left: -25px;
+    }
+
+    td {
+        text-align: center !important;
+    }
+
+    td p {
+        font-size: 35px;
+        margin-right: 20px;
+        margin-top: 250px;
+    }
+}

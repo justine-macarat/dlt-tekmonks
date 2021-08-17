@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+    {
+    	"@context": "http://schema.org",
+    	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+    	"name": "Enterprise Solutions",
+    	"description": "TekMonks is at the forefront of enabling your business, while reducing your costs.",
+    	    	"image": [{
+    		"@type": "ImageObject",
+    		"url": "https://tekmonks.com/apps/tekmonks/articles/solutions/enterprise.md/header.en.png",
+    		"name": "Enterprise Solutions",
+    		"description": "TekMonks is at the forefront of enabling your business, while reducing your costs.",
+    		"keywords": ["ibm", "oracle", "cloudsolutions", "redhat", "custom"],
+    		"copyrightHolder": {
+    			"@type": "Organization",
+    			"name": "TekMonks",
+    			"url": "https://tekmonks.com"
+    		}
+    	}],
+    	"publisher": {
+    		"@type": "Organization",
+    		"name": "TekMonks",
+    		"url": "https://tekmonks.com"
+    	},
+    	"keywords": ["ibm", "oracle", "cloudsolutions", "redhat", "custom"]
+    }
+</script>

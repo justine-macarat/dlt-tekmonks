@@ -1,0 +1,99 @@
+blockquote p { text-align:right;}
+
+div#slider figure article p img {  
+    display: block;  
+    max-width: 100%;  
+    height: auto;  
+    margin: auto;  
+    float: none!important; 
+}
+
+p {
+    background-image:url(img/testimonials-bg.png); 
+    box-shadow: 0px 6px 40px 1px rgba(0,0,0,0.1); 
+    padding:20px; 
+    font-size: 14px;
+    font-style:normal;
+    font-weight:500;
+    font-family:Raleway; 
+    line-height: 25px;
+}
+
+h1:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: auto;
+    right: 0px;
+    bottom: -30px;
+    border: 20px solid;
+    border-radius: 0 16px 48px 47px;
+}
+
+article:nth-of-type(odd) h1 {	
+    background-color: #A81010; 
+}
+article:nth-of-type(even) h1 {	
+    background-color: #07439c; 
+}
+article:nth-of-type(odd) h1:after { 
+    border-color:#A81010 #A81010 transparent transparent; 
+}
+article:nth-of-type(even) h1:after {	 
+    border-color: #07439c #07439c transparent transparent; 
+}
+
+h1{
+    margin-bottom: 10px;
+    display: inline-block;    
+    position: relative;    
+    width: 330px;
+    height: 150px; 
+    border-radius: 15px 15px 0 15px; 
+    box-shadow: 0px 6px 40px 1px rgba(0,0,0,0.1);
+    padding: 20px; 
+    font-size: 14px; 
+    line-height: 1.5;
+    font-family: Raleway; 
+    text-align-last: start; 
+    text-align: justify; 
+    color: #fff;  
+    font-weight: 500;	
+    font-style: normal;
+}
+
+h2 {
+    float: right;    
+    font-size: 12px;    
+    width: 100%;    
+    vertical-align: middle; 
+    margin-bottom: 0px;
+    font-family: Raleway; 
+}
+
+h2 strong {    
+    float: left;    
+    margin-left: 66%;    
+    margin-top: 27px;    
+    color: #0f4b9c;    
+    font-size: 15px; 
+}
+
+h2 img {	
+    border-radius: 100%;    
+    float: right;    
+    box-shadow: 0px 0px 20px 10px rgba(156, 156, 156, 0.1); 
+}
+
+h3{ 
+    float: right;    
+    margin-right: 82px;    
+    font-size: 10px;    
+    padding: 0px;    
+    margin-top: -10px;
+    text-align:center;
+    color: #0f4b9c;  
+    font-family: Raleway; 
+}
+

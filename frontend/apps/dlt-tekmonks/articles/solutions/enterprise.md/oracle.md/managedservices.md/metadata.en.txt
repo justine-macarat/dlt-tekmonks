@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+    {
+  	"@context": "http://schema.org",
+  	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+  	"name": "Oracle Managed Services",
+  	"description": "Oracle managed services are imperative for enterprises which aspire to maintain availability, decrease costs, and sustain agile, growing businesses. Put simply, each Oracle managed service is designed to ensure that enterprises have an Oracle structure which is up-to-date and properly functional. Thanks to TekMonks’ Oracle managed cloud services and tools, we have the ability to ensure that your Oracle database environment is up to par.",
+  	"image": [{
+  		"@type": "ImageObject",
+  		"url": "https://tekmonks.com/apps/tekmonks/articles/solutions/enterprise.md/oracle.md/managedservices.md/header.en.png",
+  		"name": "Oracle Managed Services",
+  		"description": "Oracle managed services are imperative for enterprises which aspire to maintain availability, decrease costs, and sustain agile, growing businesses. Put simply, each Oracle managed service is designed to ensure that enterprises have an Oracle structure which is up-to-date and properly functional. Thanks to TekMonks’ Oracle managed cloud services and tools, we have the ability to ensure that your Oracle database environment is up to par.",
+  		"keywords": ["oracle managed services", "oracle managed cloud services"],
+  		"copyrightHolder": {
+  			"@type": "Organization",
+  			"name": "TekMonks",
+  			"url": "https://tekmonks.com"
+  		}
+  	}],
+  	"publisher": {
+  		"@type": "Organization",
+  		"name": "TekMonks",
+  		"url": "https://tekmonks.com"
+  	},
+  	"keywords": ["oracle managed services", "oracle managed cloud services"]
+  }
+</script>

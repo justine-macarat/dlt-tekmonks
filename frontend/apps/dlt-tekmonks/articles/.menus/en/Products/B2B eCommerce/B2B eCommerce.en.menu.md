@@ -1,0 +1,7 @@
+|   |   |   |   |
+|:----------:|:----------:|:----------:|:----------:|
+|[<h4>TeleWorkr</h4>]({{#makeLink}}./landing.html?product_path=./products/telefamily.md/teleworkr.md&menu_path=.menus/en{{/makeLink}})<p>All-in-one digital office to address the growth of remote work.</p>| [<h4>TeleScholr</h4>]({{#makeLink}}./landing.html?product_path=./products/telefamily.md/telescholr.md&menu_path=.menus/en{{/makeLink}}) <p>The only fully integrated digital school platform in the market.</p> | [<h4>TeleDoctr</h4>]({{#makeLink}}./landing.html?product_path=./products/telefamily.md/teledoctr.md&menu_path=.menus/en{{/makeLink}}) <p>Unified solutions scalable from big to small medical facilities.</p> | [<h4>Telemeet</h4>]({{#makeLink}}./landing.html?product_path=./products/telefamily.md/telemeet.md&menu_path=.menus/en{{/makeLink}})<p>Bundled videotelephony application built-in to Teleworkr</p>| 
+
+|   |   |   |
+|:----------:|:----------:|:----------:|
+|[<h4>Corby</h4>]({{#makeLink}}./landing.html?product_path=./products/corby.md&menu_path=.menus/en{{/makeLink}}) <p>3 AI Business Platforms for minimal investment yet zero risk.</p> | [<h4>Kloudust</h4>]({{#makeLink}}./landing.html?product_path=./products/kloudust.md&menu_path=.menus/en{{/makeLink}}) <p>Multiple cloud solution providers into one enterprise software. </p> |[<h4>Cronlord</h4>]({{#makeLink}}./landing.html?product_path=./products/cronlord.md&menu_path=.menus/en{{/makeLink}})<p>The Lord of automating workloads.</p>|

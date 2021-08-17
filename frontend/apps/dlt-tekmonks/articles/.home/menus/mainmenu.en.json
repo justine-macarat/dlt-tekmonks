@@ -1,0 +1,17 @@
+{
+    "level1": [
+        {"item": "Home", 
+        "hasLevelTwo": true,
+        "level2": [
+            {"item": "Test1.1", "description": "Test description 1.1", "id":"id11", "selected": true},
+            {"item": "Test1.2", "description": "Test description 1.2", "id":"id12"}
+        ]},
+        {"item": "Software", 
+        "hasLevelTwo": true,
+        "level2": [
+            {"item": "Test2.1", "description": "Test description 2.1", "id":"id21"}
+        ]},
+        {"item": "Services"},
+        {"item": "Contact"}
+    ]
+}

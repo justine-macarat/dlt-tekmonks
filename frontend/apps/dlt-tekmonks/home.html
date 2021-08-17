@@ -1,0 +1,32 @@
+<!-- (C) 2015 TekMonks. All rights reserved.License: GPL2 - see enclosed license.txt file.-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta http-equiv="expires" content="-1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./pages/common/common.css" rel="stylesheet" />
+        <link href="./img/favicon.ico" rel="icon" type="image/x-icon" />
+	
+	 <script type="module">
+		
+            import { navigation_menu } from "./components/navigation-menu/navigation-menu.mjs";
+            navigation_menu.register();
+            import { image_slider } from "./components/image-slider/image-slider.mjs";
+            image_slider.register();
+            import { content_tile } from "./components/content-tile/content-tile.mjs";
+            content_tile.register();
+            import { content_post } from "./components/content-post/content-post.mjs";
+            content_post.register();
+            import { page_meta } from "./components/page-meta/page-meta.mjs";
+            page_meta.register();
+            import { page_generator } from "./components/page-generator/page-generator.mjs";
+            page_generator.register();
+        </script>
+        <title>{{i18n.Title}}</title>
+    </head>
+    <body style="margin: 0%;">
+        <page-generator file="./pages/home/home.page"></page-generator>
+    </body>
+</html>

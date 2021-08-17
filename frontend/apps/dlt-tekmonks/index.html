@@ -1,0 +1,74 @@
+<!-- (C) 2015 TekMonks. All rights reserved.License: MIT - see enclosed license.txt file.-->
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta id="viewport" name="viewport" content="initial-scale=0">
+        <meta charset="UTF-8" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta http-equiv="expires" content="-1" />
+        <link href="./img/favicon.ico" rel="icon" type="image/x-icon" />
+        <title>TekMonks</title>
+	<style>
+		div {text-align: center;}
+		.tekmonks-logo {
+			width: auto;
+			height: 25em;
+		}
+
+		.loading-spinner {
+			width: auto;
+			height: 6em;
+		}
+
+		.loading {
+			visibility: hidden;
+		}
+	</style>
+
+	<link rel="prefetch" as="style" href='./pages/home/navbar.styleBody.css'>
+	<link rel="prefetch" as="style" href='./pages/home/headline.styleBody.css'>	
+	<link rel="prefetch" as="style" href='./pages/home/featuredproducts.styleBody.css'>
+	<link rel="prefetch" as="style" href='./pages/home/verticals.styleArticle.css'>
+	<link rel="prefetch" as="style" href='./pages/home/aboutus.styleArticle.css'>
+	<link rel="prefetch" as="script" href="./components/image-slider/image-slider.mjs">
+	<link rel="prefetch" as="script" href="./components/navigation-menu/navigation-menu.mjs">
+	<link rel="prefetch" as="script" href="./components/content-tile/content-tile.mjs">
+	<link rel="prefetch" as="script" href="./components/content-post/content-post.mjs">
+	<link rel="prefetch" as="script" href="./components/content-post/3p/showdown.min.js">
+	<link rel="prefetch" as="script" href="./components/content-post/3p/showdown.extension.targetlink.min.js">
+	<link rel="prefetch" as="script" href="./components/page-meta/page-meta.mjs">
+	<link rel="prefetch" as="script" href="./components/page-generator/page-generator.mjs">
+        <script type="text/javascript" src="/framework/js/$$.js"></script>
+        <script type="text/javascript">
+            $$.boot(new URL("./", window.location));
+        </script>
+	<script type="text/javascript">
+           const loadpage = async _ => {
+			let referrer = "";
+			if (document.referrer!= "") {
+				referrer = (new URL(document.referrer)).hostname;
+			}	
+			
+			if (referrer != window.location.hostname) {
+				setTimeout(function(){
+				document.getElementsByTagName("div")[0].removeAttribute("class");
+				}, 4);
+			}
+		}
+		loadpage ();
+        </script>
+    </head>
+
+    <body>
+	<div class="loading">
+		<div>
+			<img class="tekmonks-logo" src="./img/tekmonks_logo.png"></img>
+		</div>
+		<div>
+			<img class="loading-spinner" src="./img/loading_spinner.svg"></img>
+		</div>
+	</div>	
+	<page-generator file="./pages/home/home.page"></page-generator>
+
+    </body>
+</html>

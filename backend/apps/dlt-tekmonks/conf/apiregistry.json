@@ -1,0 +1,9 @@
+{
+    "/apps/dlt-tekmonks/login" : "/apis/login.js?get=true",
+    "/apps/dlt-tekmonks/cmsdirlisting" : "/apis/cmsdirlisting.js?get=true",
+    "/apps/dlt-tekmonks/cmsfetchdircontents" : "/apis/cmsfetchdircontents.js?get=true",
+    "/apps/dlt-tekmonks/cmsfetcharticle" : "/apis/cmsfetcharticle.js?get=true",
+    "/apps/dlt-tekmonks/navmenulisting" : "/apis/navmenulisting.js?get=true",
+    "/apps/dlt-tekmonks/sendcontactsemail" : "/apis/sendcontactsemail.js",
+    "/apps/dlt-tekmonks/sendproductinquiries" : "/apis/sendproductinquiries.js"
+}

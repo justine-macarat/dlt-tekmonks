@@ -1,0 +1,31 @@
+<script type="application/ld+json">
+  {
+ 	"@context": "http://schema.org",
+ 	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+ 	"name": "IBM Datapower Services",
+ 	"description": "Increase your enterprises' scope of IT assets to new channels while also expanding outreach to consumers, workers, and business partners with IBM Datapower Gateway. Enterprises which are interested in these services will also be pleased to know that there are different forms and variations to successfully meet their business needs!",
+ 	 	},
+ 	"image": [{
+		"@type": "ImageObject",
+		"url": "https://tekmonks.com/apps/tekmonks/articles/solutions/enterprise.md/ibm.md/datapowermanagedservices.md/header.en.png",
+		"name": "IBM Datapower Services",
+ 	"description": "Increase your enterprises' scope of IT assets to new channels while also expanding outreach to consumers, workers, and business partners with IBM Datapower Gateway. Enterprises which are interested in these services will also be pleased to know that there are different forms and variations to successfully meet their business needs!",
+		"keywords": ["datapower services", "ibm"],
+		"copyrightHolder": {
+			"@type": "Organization",
+			"name": "TekMonks",
+			"url": "https://tekmonks.com"
+		}
+	}],
+	"publisher": {
+		"@type": "Organization",
+		"name": "TekMonks",
+		"url": "https://tekmonks.com"
+	},
+ 	"keywords": ["datapower services", "ibm"]
+ }
+</script>

@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{
+ 	"@context": "http://schema.org",
+ 	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+ 	"name": "MonBoss",
+ 	"description": "AI System to monitor and fix infrastructure.",
+ 	"image": [{
+ 		"@type": "ImageObject",
+ 		"url": "https://tekmonks.com/apps/tekmonks/articles/products/monboss.md/header.md/header.en.png",
+ 		"name": "MonBoss",
+ 		"description": "AI System to monitor and fix infrastructure.",
+ 		"keywords": ["Infrastructure monitoring", "it infrastructure monitoring", "AiOps", "it monitoring software"],
+ 		"copyrightHolder": {
+ 			"@type": "Organization",
+ 			"name": "TekMonks",
+ 			"url": "https://tekmonks.com"
+ 		}
+ 	}],
+ 	"publisher": {
+ 		"@type": "Organization",
+ 		"name": "TekMonks",
+ 		"url": "https://tekmonks.com"
+ 	},
+ 	"keywords": ["Infrastructure monitoring", "it infrastructure monitoring", "AiOps", "it monitoring software"]
+ }
+</script>

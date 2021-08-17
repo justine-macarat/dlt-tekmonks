@@ -1,0 +1,33 @@
+a:hover {
+    text-decoration: none;
+    color: #004ab3;
+}
+table {
+    font-size: 15px;
+    width: 100%;
+    table-layout: fixed;
+    padding: 0px 30px 40px 30px;
+    font-family: Raleway;
+    background-color: #fff;
+}
+
+tr th {
+    font-weight: 700;
+    color: #444;
+    width: 50%;
+    padding-bottom: 10px;
+    text-align: center !important;
+}
+
+td {
+    color: #444;
+    font-weight: 500;
+    padding-right: 0;
+    font-size: 13px;
+    text-align: center !important;
+
+}
+
+p {
+    text-align: center;
+}

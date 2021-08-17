@@ -1,0 +1,85 @@
+SCHEMA
+======
+{
+    "metadata": {"html":"page-meta", "files":"./pages/home/metadata.{{lang}}.txt"},
+
+    "navbar": {"html":"navigation-menu", "level":".menus/{{lang}}", "logo":"./articles/.home/logo.png/logo.png", "massage_menu":"true", "styleBody":"url(./pages/home/navbar.styleBody.css)", "logo_style":"width:70px;"},
+
+    "headline": {"html":"image-slider", "path":".home/headlineimages", "pause":12000, "transition":800, "styleBody":"url(./pages/home/headline.styleBody.css)", "dot_style":"background: rgba(255, 255, 255, 0.6); width, height: 10px", "selected_dot_style":"background: rgba(255, 255, 255, 0.95)", "chevron_style":"font-size: 40px;background: rgba(255, 255, 255, 0.6);color: rgba(0, 0, 0, 0.45);border-radius: 25px;", "caption_style":"max-width:50%; top: -230px;left: 55px;", "style":"height:450px;object-fit:cover;"},
+
+    "featuredproducts": {"html":"content-post", "article":".home/featuredproducts.md", "id":"featuredproducts", "styleArticle":"url(./pages/home/featuredproducts.styleBody.css)", "styleContainer":"background:white;width:100%"},
+
+    "aboutus": {"html":"content-post", "article":".home/aboutus.md", "id":"aboutus", "styleContainer":"background:#efefef;", "styleArticle":"url(./pages/home/aboutus.styleArticle.css)"},
+
+    "verticals": {"html":"content-post", "article":".home/verticals.md", "id":"verticals", "styleContainer":"background:rgba(255, 255, 255, 1);padding: 65px 0px;", "styleArticle":"url(./pages/home/verticals.styleArticle.css)"},
+
+    "footer": {"html":"content-post", "article":".home/footer.md", "id":"footer", "styleContainer":"background:rgba(255, 255, 255);color:white;", "styleArticle":"url(./pages/common/footer.styleArticle.css)"},
+
+    "mobilefooter": {"html":"content-post", "article":".home/mobilefooter.md", "id":"mobilefooter", "styleContainer":"background:rgba(255, 255, 255);color:white;", "styleArticle":"url(./pages/common/mobilefooter.styleArticle.css)"},
+    
+    "copyrights": {"html":"content-post", "article":".home/copyright.md", "id":"copyright", "styleContainer":"background:white;height:60px;color:#787878;", "styleArticle":"url(./pages/common/copyrights.styleArticle.css)"}
+}
+======
+
+
+LAYOUT
+=================
+----------------------
+| metadata           |
+----------------------
+| navbar             |
+----------------------
+| headline           |
+----------------------
+| featuredproducts   |
+----------------------
+| aboutus            |
+----------------------
+| verticals          |
+----------------------
+| footer             |
+----------------------
+| mobilefooter       |
+----------------------
+| copyrights         |
+----------------------
+=================
+Row Heights = 0px, 50px, auto, auto, auto, auto, auto, auto, 60px
+Col Widths = 100%
+=================
+
+
+CSS CLASSES
+===========
+CONTAINER CLASSES = grid-container-extension
+ITEM CLASSES = grid-item-extension
+PER ITEM CLASS = class
+===========
+
+CSS
+=======
+.grid-container-extension {
+    height: 100%;
+}
+
+.grid-item-extension {
+    background-color: rgba(202, 227, 255, 0.788);
+}
+
+body {
+    margin: 0%;
+}
+
+@media (min-width: 768px){
+  #mobilefooter {
+     display: none; 
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  #footer {
+     display: none; 
+  }
+}
+
+=======

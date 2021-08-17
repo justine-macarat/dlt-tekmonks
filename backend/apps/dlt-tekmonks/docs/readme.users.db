@@ -1,0 +1,13 @@
+This is a SQLite3 DB based user login DB.
+
+Each registered user is given a hashed (double hashed) ID under the 
+"db/users" table and their data is stored there within.
+
+Schema
+sqlite> .schema users
+CREATE TABLE users(id varchar, name varchar);
+
+Also the file "db/webscrolls.db" contains the USER IDs of all registered 
+users as a simple string array. 
+
+The Login API relies on this structure.

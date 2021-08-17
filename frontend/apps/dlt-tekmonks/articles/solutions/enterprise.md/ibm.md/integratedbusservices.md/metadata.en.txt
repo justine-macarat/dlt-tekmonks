@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+	"name": "IBM Integration Bus Services",
+	"description": "IBM Integration Bus (IIB) software grants universal integration foundation choices based upon enterprise service bus (ESB) technology. This, in turn, allows for enterprises to experience transformation and connectivity in various IT environments. IBM integration bus services are furthermore compatible with any industry, business, or platform; this includes z/OS and the cloud. Integration bus IBM comes with different product editions which are each designed to meet the customized needs of enterprises and clients. As a company with extensive IBM integration bus experience. TekMonks is proud to offer benefits associated with IBM integration bus services",
+		"image": [{
+		"@type": "ImageObject",
+		"url": "https://tekmonks.com/apps/tekmonks/articles/solutions/enterprise.md/ibm.md/integratedbusservices.md/header.en.png",
+		"name": "IBM Integration Bus Services",
+		"description": "IBM Integration Bus (IIB) software grants universal integration foundation choices based upon enterprise service bus (ESB) technology. This, in turn, allows for enterprises to experience transformation and connectivity in various IT environments. IBM integration bus services are furthermore compatible with any industry, business, or platform; this includes z/OS and the cloud. Integration bus IBM comes with different product editions which are each designed to meet the customized needs of enterprises and clients. As a company with extensive IBM integration bus experience. TekMonks is proud to offer benefits associated with IBM integration bus services",
+		"keywords": ["ibm integration bus", "integration bus ibm", "ibm integration bus services"],
+		"copyrightHolder": {
+			"@type": "Organization",
+			"name": "TekMonks",
+			"url": "https://tekmonks.com"
+		}
+	}],
+	"publisher": {
+		"@type": "Organization",
+		"name": "TekMonks",
+		"url": "https://tekmonks.com"
+	},
+	"keywords": ["ibm integration bus", "integration bus ibm", "ibm integration bus services"]
+}
+</script>

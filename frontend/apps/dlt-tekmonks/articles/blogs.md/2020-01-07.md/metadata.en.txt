@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Top Five 2020 Predictions",
+  "description": "In an interview with Rohit Kapoor, the Vice President of TekMonks, he detailed his top five 2020 predictions based around rising attacks, targeted industries, and expert advice on how to make a decade of technology safe.",
+  "image": "",  
+  "author": {
+    "@type": "Person",
+    "name": "Olivia Mandell"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "TekMonks",
+    "logo": {
+      "@type": "ImageObject",
+      "url": ""
+    }
+  },
+  "datePublished": "2020-01-07"
+}
+</script>

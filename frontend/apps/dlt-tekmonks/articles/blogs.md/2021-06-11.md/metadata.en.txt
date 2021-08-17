@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The Stresses of Leading in Cyber",
+  "description": "All jobs come with a measure of stress as part of the package. But for a CISO, IT Director, or any head of an organization’s cybersecurity team, the stress of the job can be significantly higher.",
+  "image": "",  
+  "author": {
+    "@type": "Person",
+    "name": "Olivia Mandell"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "TekMonks",
+    "logo": {
+      "@type": "ImageObject",
+      "url": ""
+    }
+  },
+  "datePublished": "2021-05-05"
+}
+</script>

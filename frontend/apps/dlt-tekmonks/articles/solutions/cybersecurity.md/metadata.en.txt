@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+    {
+    	"@context": "http://schema.org",
+    	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+    	"name": "Cybersecurity",
+    	"description": "TekMonks have been disrupting the IT industry by offering cutting edge solutions in everything from true Artificial Intelligence (AI) Cybersecurity to custom built in-house software solutions.",
+    	    	"image": [{
+    		"@type": "ImageObject",
+    		"url": "https://tekmonks.com/apps/tekmonks/articles/solutions/cybersecurity.md/header.en.png",
+    		"name": "Cybersecurity",
+    		"description": "TekMonks have been disrupting the IT industry by offering cutting edge solutions in everything from true Artificial Intelligence (AI) Cybersecurity to custom built in-house software solutions.",
+    		"keywords": ["cybersecurity"],
+    		"copyrightHolder": {
+    			"@type": "Organization",
+    			"name": "TekMonks",
+    			"url": "https://tekmonks.com"
+    		}
+    	}],
+    	"publisher": {
+    		"@type": "Organization",
+    		"name": "TekMonks",
+    		"url": "https://tekmonks.com"
+    	},
+    	"keywords": ["cybersecurity"]
+    }
+</script>

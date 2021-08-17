@@ -1,0 +1,25 @@
+<script type="application/ld+json">
+  {
+	"@context": "http://schema.org",
+	"@type": "Article",
+	"description": "TekMonks is a Global Software Company co-headquartered in Toronto, ON, Canada and Chicago, IL, USA.",
+	"image": [{
+		"@type": "ImageObject",
+		"url": "/articles/company/aboutus.md/header.en.png",
+		"name": "About Us",
+		"description": "TekMonks is a Global Software Company co-headquartered in Toronto, ON, Canada and Chicago, IL, USA.",
+		"keywords": ["aboutus"],
+		"copyrightHolder": {
+			"@type": "Organization",
+			"name": "TekMonks",
+			"url": "https://tekmonks.com"
+		}
+	}],
+	"publisher": {
+		"@type": "Organization",
+		"name": "TekMonks",
+		"url": "https://tekmonks.com"
+	},
+	"keywords": ["aboutus"]
+}
+</script>

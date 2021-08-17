@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "From Us To You",
+  "description": "To the class of 2020, close your eyes. When we’re young, we build images in our minds of what significant moments in our future will look like. For me, it was graduation. I pictured it as the happiest day of my life surrounded by loved ones sending me off into the next chapter as I received the most important piece of paper obtainable- a diploma. I fantasized about this new chapter since I can remember. Now that it’s really happening, it still only feels like a fantasy.",
+  "image": "",  
+  "author": {
+    "@type": "Person",
+    "name": "Olivia Mandell"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "TekMonks",
+    "logo": {
+      "@type": "ImageObject",
+      "url": ""
+    }
+  },
+  "datePublished": "2020-05-21"
+}
+</script>

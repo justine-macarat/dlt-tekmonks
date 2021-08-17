@@ -1,0 +1,218 @@
+SCHEMA
+======
+{
+    "aianalytics": {"id":"aianalytics","html":"input","type":"checkbox", "class":"input-checkbox", "value":"AI Analytics"},
+    "cyberwarrior": {"id":"cyberwarrior","html":"input","type":"checkbox", "class":"input-checkbox", "value":"Cyberwarrior"},
+    "reflectionnetwork": {"id":"reflectionnetwork","html":"input","type":"checkbox", "class":"input-checkbox", "value":"Reflection Network"},
+    "aipa": {"id":"aipa","html":"input","type":"checkbox", "class":"input-checkbox", "value":"AIPA"},
+    "dbmagic": {"id":"dbmagic","html":"input","type":"checkbox", "class":"input-checkbox", "value":"DB Magic"},
+    "smartfirewall": {"id":"smartfirewall","html":"input","type":"checkbox", "class":"input-checkbox", "value":"Smart Firewall"},
+    "api400": {"id":"api400","html":"input","type":"checkbox", "class":"input-checkbox", "value":"API 400"},
+    "kloudust": {"id":"kloudust","html":"input","type":"checkbox", "class":"input-checkbox", "value":"KloudDust"},
+    "teleworkr": {"id":"teleworkr","html":"input","type":"checkbox", "class":"input-checkbox", "value":"Teleworkr"},
+    "apianalytics": {"id":"apianalytics","html":"input","type":"checkbox", "class":"input-checkbox", "value":"API Analytics"},
+    "logincat": {"id":"logincat","html":"input","type":"checkbox", "class":"input-checkbox", "value":"Login Cat"},
+    "telescholr": {"id":"telescholr","html":"input","type":"checkbox", "class":"input-checkbox", "value":"Telescholr"},
+    "apiboss": {"id":"apiboss","html":"input","type":"checkbox", "class":"input-checkbox", "value":"API Boss"},
+    "monitorboss": {"id":"monitorboss","html":"input","type":"checkbox", "class":"input-checkbox", "value":"Monitor Boss"},
+    "teledoctr": {"id":"teledoctr","html":"input","type":"checkbox", "class":"input-checkbox", "value":"Teledoctr"},
+    "apiservicebus": {"id":"apiservicebus","html":"input","type":"checkbox", "class":"input-checkbox", "value":"API Service Bus"},
+    "monkruls": {"id":"monkruls","html":"input","type":"checkbox", "class":"input-checkbox", "value":"Monkruls"},
+    "telemeet": {"id":"telemeet","html":"input","type":"checkbox", "class":"input-checkbox", "value":"Telemeet"},
+    "citysafe": {"id":"citysafe","html":"input","type":"checkbox", "class":"input-checkbox", "value":"Citysafe"},
+    "monksos": {"id":"monksos","html":"input","type":"checkbox", "class":"input-checkbox", "value":"Monks OS"},
+    "xbin": {"id":"xbin","html":"input","type":"checkbox", "class":"input-checkbox", "value":"XBin"},
+    "corby": {"id":"corby","html":"input","type":"checkbox", "class":"input-checkbox", "value":"Corby"},
+    "monkshuservice": {"id":"monkshuservice","html":"input","type":"checkbox", "class":"input-checkbox", "value":"Monkshu Service"},
+    "xforge": {"id":"xforge","html":"input","type":"checkbox", "class":"input-checkbox", "value":"XForge"},
+    "cronlord": {"id":"cronlord","html":"input","type":"checkbox", "class":"input-checkbox", "value":"Cronlord"},
+    "monkvision": {"id":"monkvision","html":"input","type":"checkbox", "class":"input-checkbox", "value":"Monkvision"},
+    "xtrack": {"id":"xtrack","html":"input","type":"checkbox", "class":"input-checkbox", "value":"XTrack"}
+}
+======
+
+
+LAYOUT
+=================
+----------------------------------------------------------
+|aianalytics    |  cyberwarrior    |  reflectionnetwork  |
+----------------------------------------------------------
+|aipa           |  dbmagic         |  smartfirewall      |
+----------------------------------------------------------
+|api400         |  kloudust        |  teleworkr          |
+----------------------------------------------------------
+|apianalytics   |  logincat        |  telescholr         |
+----------------------------------------------------------
+|apiboss        |  monitorboss     |  teledoctr          |
+----------------------------------------------------------
+|apiservicebus  |  monkruls        |  telemeet           |
+----------------------------------------------------------
+|citysafe       |  monksos         |  xbin               |
+----------------------------------------------------------
+|corby          |  monkshuservice  |  xforge             |
+----------------------------------------------------------
+|cronlord       |  monkvision      |  xtrack             |
+----------------------------------------------------------
+=================
+Row Heights = 35px, 35px, 35px, 35px, 35px, 35px, 35px, 35px, 35px
+Col Widths = 33.3333% 33.3333% 33.3333%
+=================
+
+
+CSS CLASSES
+===========
+CONTAINER CLASSES = grid-container-extension
+ITEM CLASSES = grid-item-extension
+PER ITEM CLASS = class
+===========
+
+CSS
+=======
+
+.grid-container-extension {
+    height: 100%;
+    text-align: left;
+}
+
+.grid-item-extension {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.input-checkbox {
+    border: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 12px 12px;
+    font-family: Raleway;
+    background-color: #ffffff;
+    text-align:left;
+}
+
+.input-checkbox:focus {outline: none;}
+
+
+input[type=checkbox] {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 12px 12px;
+    font-family: Raleway;
+    background-color: #ffffff;
+}
+
+input[type=checkbox]::after {
+    margin: 0 20px;
+}
+
+input#aianalytics::after {
+    content: "AI\00a0 Analytics";
+}
+
+input#cyberwarrior::after {
+    content: "Cyberwarrior";
+}
+
+input#reflectionnetwork::after {
+    content: "Reflection\00a0 Network";
+}
+
+input#aipa::after {
+    content: "AIPA";
+}
+
+input#dbmagic::after {
+    content: "DB\00a0 Magic";
+}
+
+input#smartfirewall::after {
+    content: "Smart\00a0 Firewall";
+}
+
+input#api400::after {
+    content: "API\00a0 400";
+}
+
+input#kloudust::after {
+    content: "KloudDust";
+}
+
+input#teleworkr::after {
+    content: "Teleworkr";
+}
+
+input#apianalytics::after {
+    content: "API\00a0 Analytics";
+}
+
+input#logincat::after {
+    content: "LoginCat";
+}
+
+input#telescholr::after {
+    content: "Telescholr";
+}
+
+input#apiboss::after {
+    content: "API\00a0 Boss";
+}
+
+input#monitorboss::after {
+    content: "Monitor\00a0 Boss";
+}
+
+input#teledoctr::after {
+    content: "Teledoctr";
+}
+
+input#apiservicebus::after {
+    content: "API\00a0 Service\00a0 Bus";
+}
+
+input#monkruls::after {
+    content: "Monkruls";
+}
+
+input#telemeet::after {
+    content: "Telemeet";
+}
+
+input#citysafe::after {
+    content: "City\00a0 Safe";
+}
+
+input#monksos::after {
+    content: "Monks\00a0 OS ";
+}
+
+input#xbin::after {
+    content: "XBin";
+}
+
+input#corby::after {
+    content: "Corby";
+}
+
+input#monkshuservice::after {
+    content: "Monkshu\00a0 Service";
+}
+
+input#xforge::after {
+    content: "XForge";
+}
+
+input#cronlord::after {
+    content: "Cronlord";
+}
+
+input#monkvision::after {
+    content: "Monkvision";
+}
+
+input#xtrack::after {
+    content: "XTrack";
+}
+
+body {
+    margin: 0;
+    padding-top: 60px;
+}
+=======

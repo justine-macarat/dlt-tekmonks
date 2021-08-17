@@ -1,0 +1,2 @@
+#MonBoss AI-OPS
+![MonBoss Image!] (articles/.home/featuredproducts/monboss.md/monboss.png "MonBoss") AI-Ops is the next revolution for the enterprise. Why just monitor, have AI fix any issues found as well! Talk to us about The Boss - The MonBoss!

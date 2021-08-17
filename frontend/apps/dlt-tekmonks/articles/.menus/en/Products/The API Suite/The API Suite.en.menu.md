@@ -1,0 +1,3 @@
+|   |   |   |    | 
+|:----------:|:----------:|:----------:|:----------:|
+|[<h4>ASB - API Service Bus</h4>]({{#makeLink}}./landing.html?product_path=./products/asb.md&menu_path=.menus/en{{/makeLink}})<p>First & only Integration Bus for API based applications.</p>| [<h4>API/400</h4>]({{#makeLink}}./landing.html?product_path=./products/api400.md&menu_path=.menus/en{{/makeLink}}) <p>Fountain of youth for legacy systems such as AS/400.</p> |  [<h4>API Boss</h4>]({{#makeLink}}./landing.html?product_path=./products/apiboss.md&menu_path=.menus/en{{/makeLink}}) <p>The world's most powerful and complete API Manager.</p> | [<h4>DBMagic</h4>]({{#makeLink}}./landing.html?product_path=./products/dbmagic.md&menu_path=.menus/en{{/makeLink}}) <p>A REST Layer for DataBase</p>

@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+  {
+	"@context": "http://schema.org",
+	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+	"name": "Microsoft Azure Services",
+	"description": "Microsoft Azure services are critical cloud computing services; they exist for the purpose of helping enterprises create, manage, and test different applications via data centers which are managed by Microsoft. In order for Microsoft Azure cloud services to be most effective for enterprises, data management, computing, IoT, media services, etc are provided. If you are unsure of how Microsoft Azure managed services will be of assistance to your business, TekMonks is here to help you.",
+	"image": [{
+		"@type": "ImageObject",
+		"url": "https://tekmonks.com/apps/tekmonks/articles/solutions/enterprise.md/cloudsolutions.md/microsoftazureservices.md/header.en.png",
+		"name": "Microsoft Azure Services",
+		"description": "Microsoft Azure services are critical cloud computing services; they exist for the purpose of helping enterprises create, manage, and test different applications via data centers which are managed by Microsoft. In order for Microsoft Azure cloud services to be most effective for enterprises, data management, computing, IoT, media services, etc are provided. If you are unsure of how Microsoft Azure managed services will be of assistance to your business, TekMonks is here to help you.",
+		"keywords": ["microsoft azure services", "microsoft azure cloud services", "microsoft azure cognitive services", "microsoft azure financial services", "microsoft azure iot services", "microsoft azure managed services"],
+		"copyrightHolder": {
+			"@type": "Organization",
+			"name": "TekMonks",
+			"url": "https://tekmonks.com"
+		}
+	}],
+	"publisher": {
+		"@type": "Organization",
+		"name": "TekMonks",
+		"url": "https://tekmonks.com"
+	},
+	"keywords": ["microsoft azure services", "microsoft azure cloud services", "microsoft azure cognitive services", "microsoft azure financial services", "microsoft azure iot services", "microsoft azure managed services"]
+}
+</script>

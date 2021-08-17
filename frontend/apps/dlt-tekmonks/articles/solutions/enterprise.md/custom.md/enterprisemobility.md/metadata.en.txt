@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+ {
+  	"@context": "http://schema.org",
+  	"@type": "Articlehttps://tekmonks.com/apps/tekmonks",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+  	"name": "Enterprise Mobile Solutions",
+  	"description": "Enterprise mobile solutions help enterprises overcome issues which they are currently facing; these issues include, but are not necessarily limited to skilled labor access, IT security, internal resource allocation, budget pressure, etc. Thankfully, TekMonks’ has a proven record of success with enterprise mobility solutions. We have offered the following benefits, mobility solutions, and more",
+  	"image": [{
+  		"@type": "ImageObject",
+  		"url": "https://tekmonks.com/apps/tekmonks/articles/solutions/enterprise.md/custom.md/enterprisemobility.md/header.en.png",
+  		"name": "Enterprise Mobile Solutions",
+  		"description": "Enterprise mobile solutions help enterprises overcome issues which they are currently facing; these issues include, but are not necessarily limited to skilled labor access, IT security, internal resource allocation, budget pressure, etc. Thankfully, TekMonks’ has a proven record of success with enterprise mobility solutions. We have offered the following benefits, mobility solutions, and more",
+  		"keywords": ["mobile solutions", "mobility solutions", "mobile app development", "mobile application testing"],
+  		"copyrightHolder": {
+  			"@type": "Organization",
+  			"name": "TekMonks",
+  			"url": "https://tekmonks.com"
+  		}
+  	}],
+  	"publisher": {
+  		"@type": "Organization",
+  		"name": "TekMonks",
+  		"url": "https://tekmonks.com"
+  	},
+  	"keywords": ["mobile solutions", "mobility solutions", "mobile app development", "mobile application testing"]
+  }
+</script>

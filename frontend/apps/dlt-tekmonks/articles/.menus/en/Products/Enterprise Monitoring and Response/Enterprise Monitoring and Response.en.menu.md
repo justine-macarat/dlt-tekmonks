@@ -1,0 +1,3 @@
+|   |   |
+|:----------:|:----------:|
+|[<h4>MonBoss</h4>]({{#makeLink}}./landing.html?product_path=./products/monboss.md&menu_path=.menus/en{{/makeLink}})<p>An AIOps or Artificial Intelligence for IT Operations is what MonBoss is all about</p>|[<h4>XBin</h4>]({{#makeLink}}./landing.html?product_path=./products/xbin.md&menu_path=.menus/en{{/makeLink}})<p>Sharing and management of enterprise content platform.</p>

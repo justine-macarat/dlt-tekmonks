@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Infrastructure Cybersecurity Vulnerabilities",
+  "description": "
+Cyber threats do not stop for anything or anyone, even in the case of a global pandemic. By implementing cybersecurity developments into our personal and work lives while also taking the necessary daily precautions to stay healthy, we will get through these difficult times together both safely and securely.",
+  "image": "",  
+  "author": {
+    "@type": "Person",
+    "name": "Olivia Mandell"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "TekMonks",
+    "logo": {
+      "@type": "ImageObject",
+      "url": ""
+    }
+  },
+  "datePublished": "2020-04-30"
+}
+</script>

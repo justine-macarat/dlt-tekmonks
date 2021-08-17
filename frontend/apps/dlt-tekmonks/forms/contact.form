@@ -1,0 +1,109 @@
+SCHEMA
+======
+{
+    "header": {"html":"div","__org_monkshu_innerHTML":"Message us","class":"header"},
+    "name": {"id":"name","html":"input","type":"text","placeholder":"Enter full name","required":true,"class":"fullwidth"},
+    "company": {"id":"company","type":"text","placeholder":"Enter company","required":true,"class":"fullwidth"},
+    "email": {"id":"email","type":"email","placeholder":"Enter email","required":true,"class":"fullwidth"},
+    "phone": {"id":"tel","type":"tel","placeholder":"Enter phone","required":true,"class":"fullwidth"},
+    "message": {"id":"message","html":"textarea","rows":"3","placeholder":"Enter message","required":true,"class":"fullwidth"},
+    "submit": {"type":"submit","onClick":"window.monkshu_env.components['form-generator'].submit('contactform','window.webscrolls_env.contactform.submit()')","class":"fullwidthbutton"}
+}
+======
+
+
+LAYOUT
+=================
+----------------- 
+|header         | 
+----------------- 
+|name           | 
+-----------------
+|company        | 
+-----------------
+|email          |
+-----------------
+|phone          | 
+-----------------
+|message        |
+-----------------
+|submit         |
+-----------------
+=================
+Row Heights = 30px, 40px, 30px, 30px, 30px, 60px, 50px
+Col Widths = 100%
+=================
+
+
+CSS CLASSES
+===========
+CONTAINER CLASSES = grid-container-extension
+ITEM CLASSES = grid-item-extension
+PER ITEM CLASS = class
+===========
+
+CSS
+=======
+.grid-container-extension {
+    background-color: #ffffff;
+    grid-row-gap: 0px;
+    grid-column-gap: 5px;
+    box-sizing: border-box;
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    width: calc(22% - 40px);
+    min-width: 11em;
+    top: 260px;
+    border-radius: 15px;
+    font-family: Raleway;
+}
+.fullwidth {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-family: Raleway;
+    background-color: #ffffff;
+    border-bottom: 1px solid #444;
+}
+.fullwidth:focus {outline: none;}
+.fullwidthbutton {
+    width: 100%;
+    border: 0;
+    height:35px;
+    background: #0f4b9c;
+    color: white;
+    font-family: Raleway;
+    font-size: 16px; 
+    color: #ffffff; 
+    font-weight: 500; 
+    text-align: center; 
+    font-style: normal;
+    margin: auto;
+    border-radius: 5px;
+}
+.class-submit {
+    padding-top: 10px;
+}
+.class-name {
+    padding-top: 10px;
+}
+.class-header{
+    width: 100%;
+    font-family: Raleway;
+    font-size: 25px; 
+    color: #0f4b9c; 
+    font-weight: 500; 
+    text-align: center; 
+    font-style: normal;
+}
+
+input {
+    color: #444;
+}
+
+
+body {margin: 0}
+=======

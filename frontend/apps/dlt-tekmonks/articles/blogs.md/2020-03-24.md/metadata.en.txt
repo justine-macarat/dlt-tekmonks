@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Healthcare Targeted in Cyberattacks",
+  "description": "Even in the event of a pandemic, cyber-attacks have hit U.S. healthcare facilities. Only a few days ago the U.S. Health and Human Services Department’s (HHS) computer networks were attacked.",
+  "image": "",  
+  "author": {
+    "@type": "Person",
+    "name": "Abby Rose"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "TekMonks",
+    "logo": {
+      "@type": "ImageObject",
+      "url": ""
+    }
+  },
+  "datePublished": "2020-03-24"
+}
+</script>

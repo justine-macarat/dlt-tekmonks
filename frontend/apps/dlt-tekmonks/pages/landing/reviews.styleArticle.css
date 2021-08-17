@@ -1,0 +1,69 @@
+h2 {
+    padding: 0 40px;
+}
+
+table {
+    width:100%; 
+    border-spacing: 100px 20px;
+} 
+
+h1{
+    font-size: 3em; 
+    padding-bottom: 20px;
+    font-weight:bold; 
+    color: #07439c
+} 
+
+h2{
+    font-size: 2em; 
+    padding: 20px 40px;
+    color: black;
+    font-weight:normal;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    table {
+        border-spacing: 0px 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    td {
+        display: block;
+    } 
+
+    td p {
+        padding: 0 30px 50px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+   
+    table {
+        border-spacing: 0px 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    td {
+        display: block;
+    } 
+
+    td p {
+        padding: 0 30px 50px;
+    }
+}

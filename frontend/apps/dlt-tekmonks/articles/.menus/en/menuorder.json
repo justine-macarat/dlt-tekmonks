@@ -1,0 +1,73 @@
+{
+    "menuorder": [
+        {
+            "level1": {
+                "item": "Products",
+                "hasLevelTwo": true,
+                "level2": [
+                    {
+                        "item": "B2B eCommerce"
+                    },
+                    {
+                        "item": "Cybersecurity"
+                    },
+                    {
+                        "item": "Enterprise Integration and Robotic Process Automation"
+                    },
+                    {
+                        "item": "Enterprise Monitoring and Response"
+                    },
+                    {
+                        "item": "The API Suite"
+                    }
+
+                ]
+            }
+        },
+        {
+            "level1": {
+                "item": "Solutions",
+                "hasLevelTwo": true,
+                "level2": [
+                    {
+                        "item": "Enterprise Solutions"
+                    },
+                    {
+                        "item": "Artificial Intelligence"
+                    },
+                    {
+                        "item": "Cybersecurity"
+                    }
+                ]
+            }
+        },
+        {
+            "level1": {
+                "item": "TekMonks Social",
+                "hasLevelTwo": true,
+                "level2": [
+                    {
+                        "item": "Blog"
+                    }
+                ]
+            }
+        },
+        {
+            "level1": {
+                "item": "Company",
+                "hasLevelTwo": true,
+                "level2": [
+                    {
+                        "item": "About Us"
+                    },
+                    {
+                        "item": "Join Our Team"
+                    },
+                    {
+                        "item": "Contact Us"
+                    }
+                ]
+            }
+        }
+    ]
+}

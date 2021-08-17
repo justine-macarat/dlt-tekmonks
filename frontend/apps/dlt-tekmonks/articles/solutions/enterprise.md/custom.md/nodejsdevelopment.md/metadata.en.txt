@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+  {
+	"@context": "http://schema.org",
+	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+	"name": "Node.js Development",
+	"description": "As the technological world continues to advance, enterprises need access to Node.js development services when tasked with data streaming, real time applications, data synchronization, and other business-related learning curves. Thankfully, TekMonks has the capability to be of assistance to enterprises which require Node.js development services.",
+		"image": [{
+  		"@type": "ImageObject",
+  		"url": "https://tekmonks.com/apps/tekmonks/articles/solutions/enterprise.md/custom.md/nodejsdevelopment.md/header.en.png",
+  		"name": "Node.js Development",
+  		"description": "As the technological world continues to advance, enterprises need access to Node.js development services when tasked with data streaming, real time applications, data synchronization, and other business-related learning curves. Thankfully, TekMonks has the capability to be of assistance to enterprises which require Node.js development services.",
+  		"keywords":["Node.js Developer", "node js development services", "node js web development", "web development using node js"],
+  		"copyrightHolder": {
+  			"@type": "Organization",
+  			"name": "TekMonks",
+  			"url": "https://tekmonks.com"
+  		}
+  	}],
+  	"publisher": {
+  		"@type": "Organization",
+  		"name": "TekMonks",
+  		"url": "https://tekmonks.com"
+  	},
+	"keywords": ["Node.js Developer", "node js development services", "node js web development", "web development using node js"]
+}
+</script>

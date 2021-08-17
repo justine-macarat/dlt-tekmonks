@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+  {
+  	"@context": "http://schema.org",
+  	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+  	"name": "LoginCat",
+  	"description": "Zero Trust Cybersecurity",
+  	"image": [{
+  		"@type": "ImageObject",
+  		"url": "https://tekmonks.com/apps/tekmonks/articles/products/logincat.md/logincat360.md/header.md/header.en.png",
+  		"name": "LoginCat",
+  		"description": "Zero Trust Cybersecurity",
+  		"keywords": ["Cyber Security solutions", "cybersecurity solutions", "Cyber Security", "Cyber security companies", "Malware protection", "Hacking prevention", "anti malware ", "best malware protection", "prevent hacking", "cyber protection", "it security solutions", "cyber security software ", "network security solutions", "ai cybersecurity", "ai cyber security", "zero trust security", "zero trust network", "zero trust model", "cyber security services ", "cloud security", "phishing prevention ", "security application ", "cyber attack prevention ", "cyber security business ", "anti phishing", "application security", "web application security"],
+  		"copyrightHolder": {
+  			"@type": "Organization",
+  			"name": "TekMonks",
+  			"url": "https://tekmonks.com"
+  		}
+  	}],
+  	"publisher": {
+  		"@type": "Organization",
+  		"name": "TekMonks",
+  		"url": "https://tekmonks.com"
+  	},
+  	"keywords": ["Cyber Security solutions", "cybersecurity solutions", "Cyber Security", "Cyber security companies", "Malware protection", "Hacking prevention", "anti malware ", "best malware protection", "prevent hacking", "cyber protection", "it security solutions", "cyber security software ", "network security solutions", "ai cybersecurity", "ai cyber security", "zero trust security", "zero trust network", "zero trust model", "cyber security services ", "cloud security", "phishing prevention ", "security application ", "cyber attack prevention ", "cyber security business ", "anti phishing", "application security", "web application security"]
+  }
+</script>

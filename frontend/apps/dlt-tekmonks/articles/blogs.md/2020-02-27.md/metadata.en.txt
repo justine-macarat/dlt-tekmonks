@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Combat Cybersecurity Vulnerabilities Created by Coronavirus",
+  "description": "During this threat of the Coronavirus, ample opportunities for people to take advantage of cyber vulnerabilities have become available and exploited. One cyberthreat is the phishing emails that are viruses disguised as medical information emails regarding the Coronavirus. Another cyberthreat exploited the movement for employers to telecommute, working from home, and working on vulnerable networks. TekMonks has compiled some helpful tips to combat these issues.",
+  "image": "",  
+  "author": {
+    "@type": "Person",
+    "name": "Abby Rose"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "TekMonks",
+    "logo": {
+      "@type": "ImageObject",
+      "url": ""
+    }
+  },
+  "datePublished": "2020-02-27"
+}
+</script>

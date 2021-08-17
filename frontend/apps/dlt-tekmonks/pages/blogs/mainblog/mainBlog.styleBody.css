@@ -1,0 +1,129 @@
+body{
+    font-family: Raleway; 
+    box-sizing: border-box;
+}
+
+article{  
+    width: 100%; 
+    margin: auto; 
+    max-width: 820px;  
+}
+
+h1 { 
+    color: #0f4b9c; 
+    text-align: center; 
+    font-size: 36px;
+    margin-bottom: 30px; 
+    font-weight: bold;
+    font-style: normal;
+    padding-top: 20px;
+}
+
+h2{
+    font-size: 25px; 
+    color: #0f4b9c; 
+    font-weight: bold; 
+    text-transform: capitalize; 
+    text-align: center; 
+    font-style: normal; 
+    background: #efefef;
+    margin: 0 -600% 50px;
+    padding: 50px;
+}
+
+p{ 
+    color: #444444;
+    font-weight: 500; 
+    font-style: normal;   
+    line-height: 1.5;  
+    padding: 0 40px;
+}
+
+p.content {
+    margin-left: 95px;
+    margin-top: 20px;
+    padding: 0 !important;
+}
+
+td {
+    text-align: left !important;
+    padding: 20px 20px;
+}
+    
+td h3 {color:#07439c;}
+
+td a:hover h3 {color: #a81010;}
+
+
+td a img {
+    float: left;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+
+td a {
+    color: #444444;
+    font-weight: 500;
+    font-family: Raleway;
+    box-shadow: 0px 6px 15px 5px rgb(111 111 111 / 10%);
+    z-index: 999;
+    position: relative;
+    display: table-caption;
+    background: white;
+    width: 300px;
+    height: 130px;
+    padding: 25px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    
+    /* h1 {
+        font-size: 30px;
+        margin: 0 0 50px;
+    } */
+    tr {
+        margin: 0;
+    }
+
+    img {
+        float: none !important  ;
+        text-align: center;
+        background: #fff;
+        height: auto;
+        width: 90px;
+        margin: 0 !important;
+    }
+
+    h2 {
+        margin: 0 0 50px;
+        padding: 30px 0;
+    }
+    
+    table {
+        padding: 0;
+        margin: auto;
+    }
+
+    td {
+        display: block;
+        text-align: center !important;
+    }
+
+    td a {
+        padding: 25px;
+        height: 210px !important;
+        width: auto !important;
+    }
+    
+    p.content {
+        margin-left: 0px;
+        width: 200px;
+    }
+    
+  }

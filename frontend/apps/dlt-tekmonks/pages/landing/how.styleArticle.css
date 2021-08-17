@@ -1,0 +1,131 @@
+.how-title {
+    font-size: 16px; 
+    font-weight: 800; 
+    color: #07439c;
+}
+
+.how-description {
+    color: black; 
+    height: 6em;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    img {
+        height: 15vh;
+    }
+
+    .how-description {
+        padding-bottom: 60px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+   
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    table {
+        border-spacing: 70px 0;
+    } 
+    
+    td {
+        display: block;
+        width: 80vw !important;
+        text-align: left !important;
+        height: auto;
+        padding: 0 0 50px;
+    } 
+
+     td img {
+        float: left;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 0;
+        margin-right: 15px !important;
+        width: auto;
+        height: 70px;
+    }
+
+    td p{
+        margin-left: 90px;
+        height: auto;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 17px;
+        padding-bottom: 40px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .how-description {
+        height: auto;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    table {
+        border-spacing: 40px 0;
+    } 
+    
+    td {
+        display: block;
+        width: 80vw !important;
+        text-align: left !important;
+        height: auto;
+        padding: 0 0 50px;
+    } 
+
+     td img {
+        float: left;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-top: 0;
+        margin-right: 15px !important;
+        width: auto;
+        height: 70px;
+    }
+
+    td p{
+        margin-left: 90px;
+        height: auto;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 17px;
+        padding-bottom: 40px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .how-description {
+        height: auto;
+    }
+}

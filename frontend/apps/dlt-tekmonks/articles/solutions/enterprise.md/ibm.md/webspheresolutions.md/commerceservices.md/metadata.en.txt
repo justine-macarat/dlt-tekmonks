@@ -1,0 +1,55 @@
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+	"name": "WebSphere Commerce Services",
+	"description": "WebSphere commerce services are absolutely paramount for enterprises which require assistance as it pertains to sales, promotion, and online marketing. Some of the best WebSphere commerce solutions include provision of call centers, precision marketing tools for different business platforms/environments, and content management assistance.",
+	"offers": {
+		"@type": "Offer",
+		"name": "WebSphere Commerce Services",
+		"itemListElement": [{
+				"@type": "Offer",
+				"name": "Help with payment processing, store design, data and catalog modeling, etc."
+			},
+			{
+				"@type": "Offer",
+				"name": "General management and support for administration, disasters, storage, WCS environment "
+			},
+			{
+				"@type": "Offer",
+				"name": "WCS testing"
+			},
+			{
+				"@type": "Offer",
+				"name": "General troubleshooting services"
+			},
+			{
+				"@type": "Offer",
+				"name": "Cost predictability"
+			}
+		]
+	},
+	"image": [{
+		"@type": "ImageObject",
+		"url": "https://tekmonks.com/apps/tekmonks/articles/solutions/enterprise.md/ibm.md/webspheresolutions.md/commerceservices.md/header.en.png",
+		"name": "WebSphere Commerce Services",
+		"description": "WebSphere commerce services are absolutely paramount for enterprises which require assistance as it pertains to sales, promotion, and online marketing. Some of the best WebSphere commerce solutions include provision of call centers, precision marketing tools for different business platforms/environments, and content management assistance.",
+		"keywords": ["WebSphere Commerce Services", "IBM commerce solution", "WebSphere Commerce Solution"],
+		"copyrightHolder": {
+			"@type": "Organization",
+			"name": "TekMonks",
+			"url": "https://tekmonks.com"
+		}
+	}],
+	"publisher": {
+		"@type": "Organization",
+		"name": "TekMonks",
+		"url": "https://tekmonks.com"
+	},
+	"keywords": ["WebSphere Commerce Services", "IBM commerce solution", "WebSphere Commerce Solution"]
+}
+</script>

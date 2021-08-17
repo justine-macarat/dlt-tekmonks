@@ -1,0 +1,2 @@
+#AI Analytics
+![AI Analytics Image!] (articles/.home/featuredproducts/aianalytics.md/aianalytics.png "AI Analytics")TekMonks AI Analytics platforms is recognized as the industry leader in Business Analytics. Bring the power of Google to your entire enterprise. added text

@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Passwords to Passphrases- Zero-Day Protection",
+  "description": "What is a zero-day flaw? Zero-day vulnerabilities are defined as previously unknown threats attacking software that can be exploited by hackers until a patch is released",
+  "image": "",  
+  "author": {
+    "@type": "Person",
+    "name": "Olivia Mandell"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "TekMonks",
+    "logo": {
+      "@type": "ImageObject",
+      "url": ""
+    }
+  },
+  "datePublished": "2019-10-29"
+}
+</script>

@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{
+  	"@context": "http://schema.org",
+  	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+  	"name": "IBM MQ Software Overview",
+  	"description": "IBM MQ software is designed to improve the quality of communication and data sharing between various files, systems, servers, and applications.",
+  	"image": [{
+  		"@type": "ImageObject",
+  		"url": "https://tekmonks.com/apps/tekmonks/articles/solutions/enterprise.md/ibm.md/mqsolutions.md/header.en.png",
+  		"name": "IBM MQ Software Overview",
+  		"description": "IBM MQ software is designed to improve the quality of communication and data sharing between various files, systems, servers, and applications.",
+  		"keywords": ["MQ services", "mq it support", "websphere mq", "mq server", "mq server"],
+  		"copyrightHolder": {
+  			"@type": "Organization",
+  			"name": "TekMonks",
+  			"url": "https://tekmonks.com"
+  		}
+  	}],
+  	"publisher": {
+  		"@type": "Organization",
+  		"name": "TekMonks",
+  		"url": "https://tekmonks.com"
+  	},
+  	"keywords": ["MQ services", "mq it support", "websphere mq", "mq server", "mq server"]
+}
+</script>

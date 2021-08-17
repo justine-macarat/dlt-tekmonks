@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+      {
+    	"@context": "http://schema.org",
+    	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+    	"name": "Corby",
+    	"description": "Meet the Corby Family",
+    	"image": [{
+    		"@type": "ImageObject",
+    		"url": "https://tekmonks.com/apps/tekmonks/articles/products/corby.md/header.md/header.en.png",
+    		"name": "Corby",
+    		"description": "Meet the Corby Family",
+    		"keywords": ["chatbot", "payment gateway", "card scanner"],
+    		"copyrightHolder": {
+    			"@type": "Organization",
+    			"name": "TekMonks",
+    			"url": "https://tekmonks.com"
+    		}
+    	}],
+    	"publisher": {
+    		"@type": "Organization",
+    		"name": "TekMonks",
+    		"url": "https://tekmonks.com"
+    	},
+    	"keywords": ["chatbot", "payment gateway", "card scanner"]
+    }
+</script>

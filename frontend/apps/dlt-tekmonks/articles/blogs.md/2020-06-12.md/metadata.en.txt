@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Cybersecurity For The Second Wave",
+  "description": "Some predicted that COVID-19 would have a second wave based on the study of previous epidemic and pandemics, but many thought the prediction was a hasty presumption. Data shows that with the reopening of cities and increase of gatherings, that it is not only a possibility, but is starting to occur.",
+  "image": "",  
+  "author": {
+    "@type": "Person",
+    "name": "Abby Rose"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "TekMonks",
+    "logo": {
+      "@type": "ImageObject",
+      "url": ""
+    }
+  },
+  "datePublished": "2020-06-12"
+}
+</script>

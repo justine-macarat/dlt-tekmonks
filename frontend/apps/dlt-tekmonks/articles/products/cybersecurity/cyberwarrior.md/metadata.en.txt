@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{
+  	"@context": "http://schema.org",
+  	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+  	"name": "CyberWarrior",
+  	"description": "AI for CyberSecurity",
+  	"image": [{
+  		"@type": "ImageObject",
+  		"url": "https://tekmonks.com/apps/tekmonks/articles/products/cybersecurity/cyberwarrior.md/header.md/header.en.png",
+  		"name": "CyberWarrior",
+  		"description": "AI for CyberSecurity",
+  		"keywords": ["ai cybersecurity", "cyber defense solutions", "cyber defense", "AI for cybersecurity", "Cybersecurity with AI", "AI technology"],
+  		"copyrightHolder": {
+  			"@type": "Organization",
+  			"name": "TekMonks",
+  			"url": "https://tekmonks.com"
+  		}
+  	}],
+  	"publisher": {
+  		"@type": "Organization",
+  		"name": "TekMonks",
+  		"url": "https://tekmonks.com"
+  	},
+  	"keywords": ["ai cybersecurity", "cyber defense solutions", "cyber defense", "AI for cybersecurity", "Cybersecurity with AI", "AI technology"]
+  }
+</script>

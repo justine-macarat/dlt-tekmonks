@@ -1,0 +1,112 @@
+SCHEMA
+======
+{
+    "name": {"id":"name","html":"input","type":"text","placeholder":"Full Name*","required":true,"class":"input"},
+    "company": {"id":"company","type":"text","placeholder":"Company Name*","required":true,"class":"input"},
+    "designation": {"id":"designation","type":"text","placeholder":"Designation*","required":true,"class":"input"},
+    "serviceoffered": {"id":"serviceoffered","type":"text","placeholder":"Service Offered*","required":true,"class":"input"},
+    "email": {"id":"email","type":"email","placeholder":"Email*","required":true,"class":"input"},
+    "phone": {"id":"tel","type":"number","placeholder":"Phone*","required":true,"class":"input"},
+    "website": {"id":"website","type":"text","placeholder":"Company Website*","required":true,"class":"input"},
+    "country": {"id":"country","type":"text","placeholder":"Country*","required":true,"class":"input"},
+    "message": {"id":"message","html":"textarea","rows":"3","placeholder":"Message*","required":true,"class":"input"},
+    "submit": {"type":"submit","onClick":"window.monkshu_env.components['form-generator'].submit('contactform','window.webscrolls_env.contactform.submit()')","class":"submitbutton"}
+}
+======
+
+
+LAYOUT
+=================
+-----------------------------------
+|name          |  company         | 
+-----------------------------------
+|designation   |  serviceoffered  | 
+-----------------------------------
+|phone         |  email           |
+-----------------------------------
+|website       |  country         | 
+-----------------------------------
+|message                          |
+-----------------------------------
+|submit                           |
+-----------------------------------
+=================
+Row Heights = 50px, 50px, 50px, 50px, 80px, 100px
+Col Widths = 50% 50%
+=================
+
+
+CSS CLASSES
+===========
+CONTAINER CLASSES = grid-container-extension
+ITEM CLASSES = grid-item-extension
+PER ITEM CLASS = class
+===========
+
+CSS
+=======
+
+.grid-container-extension {
+    height: 100%;
+    text-align: center;
+}
+
+.grid-item-extension {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.input {
+    width: 50%;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px 12px;
+    font-family: Raleway;
+    background-color: #ffffff;
+    color: #444;
+}
+.input:focus {outline: none;}
+.submitbutton {
+    width: 15%;
+    border: 0;
+    background: #0f4b9c;
+    color: white;
+    font-family: Raleway;
+    font-size: 16px; 
+    color: #ffffff; 
+    font-weight: 500; 
+    text-align: center; 
+    font-style: normal;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px 12px;
+}
+.class-submit {
+    padding-top: 20px;
+    text-align: center
+}
+
+.class-name, .class-designation, .class-phone, .class-website {
+    padding-right: 20px;
+    text-align: right;
+}
+
+.class-company, .class-serviceoffered, .class-email, .class-country {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.class-submit {
+    padding-top: 20px;
+    text-align: center
+}
+
+textarea {
+    width: calc(50% + 44px) !important;
+}
+
+body {
+    margin: 0;
+    padding-top: 50px;
+}
+=======

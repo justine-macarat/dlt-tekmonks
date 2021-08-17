@@ -1,0 +1,26 @@
+<script type="application/ld+json">
+   {
+    	"@context": "http://schema.org",
+    	"@type": "Article",
+    	"name": "Customs",
+    	"description": ".",
+    	"image": [{
+    		"@type": "ImageObject",
+    		"url": "https://tekmonks.com/apps/tekmonks/articles/solutions/enterprise.md/custom.md/header.en.png",
+    		"name": "Customs",
+    		"description": "Customs",
+    		"keywords": ["enterprise mobility", "nodejs development", "php development"],
+    		"copyrightHolder": {
+    			"@type": "Organization",
+    			"name": "TekMonks",
+    			"url": "https://tekmonks.com"
+    		}
+    	}],
+    	"publisher": {
+    		"@type": "Organization",
+    		"name": "TekMonks",
+    		"url": "https://tekmonks.com"
+    	},
+    	"keywords": ["enterprise mobility", "nodejs development", "php development"]
+    }
+</script>

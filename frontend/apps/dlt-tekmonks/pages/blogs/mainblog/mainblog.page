@@ -1,0 +1,75 @@
+SCHEMA
+======
+{
+    "navbar": {"html":"navigation-menu", "level":".menus/{{lang}}", "logo":"./articles/.home/logo.png/logo.png", "massage_menu":"true", "styleBody":"url(./pages/home/navbar.styleBody.css)", "logo_style":"width:70px;"},
+    "blogheader": {"html":"content-post", "article":"{{url.blogs_path}}/blogheader.md", "id":"blogheader", "style":"text-align:center;", "styleContainer":"padding: 60px 0", "styleBody":"url(./pages/blogs/mainblog/mainBlog.styleBody.css)"},
+    "blogcontent": {"html":"content-post", "article":"{{url.blogs_path}}/blogcontent.md", "id":"blogcontent", "style":"text-align:center;", "styleContainer":"display: inline-block; padding-bottom:50px", "styleBody":"url(./pages/blogs/mainblog/mainBlog.styleBody.css)"},
+    "footer": {"html":"content-post", "article":".home/footer.md", "id":"footer", "styleContainer":"background:rgba(255, 255, 255);color:white;height:270px", "styleArticle":"url(./pages/common/footer.styleArticle.css)"},
+    "mobilefooter": {"html":"content-post", "article":".home/mobilefooter.md", "id":"mobilefooter", "styleContainer":"background:rgba(255, 255, 255);color:white;", "styleArticle":"url(./pages/common/mobilefooter.styleArticle.css)"},
+    "copyrights": {"html":"content-post", "article":".home/copyright.md", "id":"copyright", "styleContainer":"background:white;height:60px;color:#787878;", "styleArticle":"url(./pages/common/copyrights.styleArticle.css)"}
+}
+======
+
+
+LAYOUT
+=================
+-----------------------------
+| navbar                    |
+-----------------------------
+| blogheader                |
+-----------------------------
+| blogcontent               |
+-----------------------------
+| footer                    |
+-----------------------------
+| mobilefooter              |
+-----------------------------
+| copyrights                |
+-----------------------------
+=================
+Row Heights = 50px, auto, auto, auto, auto, 60px
+Col Widths = 100%
+=================
+
+
+CSS CLASSES
+===========
+CONTAINER CLASSES = grid-container-extension
+ITEM CLASSES = grid-item-extension
+PER ITEM CLASS = class
+===========
+
+CSS
+=======
+.grid-container-extension {
+    height: 100%;
+}
+
+.grid-item-extension {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+body {
+    margin: 0%;
+}
+
+.class-blogcontent {
+    text-align: center;
+    background: #cccccc;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  
+    div.class-footer {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px){
+  
+  div.class-mobilefooter {
+      display: none;
+  }
+  
+}
+=======

@@ -1,0 +1,96 @@
+SCHEMA
+======
+{
+    "navbar": {"html":"navigation-menu", "level":".menus/{{lang}}", "logo":"./articles/.home/logo.png/logo.png", "massage_menu":"true", "styleBody":"url(./pages/home/navbar.styleBody.css)", "logo_style":"width:70px;", "menu_arrow":"&nbsp;?"},
+    "headerimg": {"html":"img", "src":"./articles/{{url.article_path}}/header.{{lang}}.png", "style":"height:500px;width:100%; object-fit:cover"},
+    "messageus": {"html":"content-post", "article":"{{url.article_path}}/messageus.md", "id":"messageus", "style":"display:inline-block;background:#efefef;width:100%;padding:0;", "styleContainer":"display:inline-block;", "styleBody":"body{padding:30px;box-sizing:border-box;font-family: Raleway;} h1{font-size: 2em; font-weight:bold; color: #07439c; text-align: center;}"},
+    "contactform": {"html":"form-generator", "file":"./forms/productinquiries.form", "id":"contactform"},
+    "productcheckbox": {"html":"form-generator", "file":"./forms/productcheckbox.form", "id":"productcheckbox"},
+    "partnership": {"html":"content-post", "article":"{{url.article_path}}/partnership.md", "id":"partnership", "style":"display:inline-block;background:#efefef;width:100%;padding:0;", "styleContainer":"display:inline-block;", "styleBody":"body{padding:30px;box-sizing:border-box;font-family: Raleway;} h1{font-size: 2em; font-weight:bold; color: #07439c; text-align: center;}"},
+    "email": {"html":"content-post", "article":"{{url.article_path}}/email.md", "id":"email", "style":"padding-bottom:40px;background:rgba(255,255,255);padding-top:20px;padding-left:80px;padding-right:80px;", "styleArticle":"url(./pages/contactus/contactus.styleArticle.css)"},
+    "locations": {"html":"content-post", "article":"{{url.article_path}}/locations.md", "id":"locations", "style":"padding-bottom:40px;background:rgba(255,255,255);padding-top:20px;padding-left:80px;padding-right:80px;", "styleArticle":"url(./pages/contactus/contactus.styleArticle.css)", "styleBody":"td:not(:last-child) {border-right : solid 1px #efefef;}"},
+    "footer": {"html":"content-post", "article":".home/footer.md", "id":"footer", "styleContainer":"background:white;height:270px;color:white;", "styleArticle":"url(./pages/common/footer.styleArticle.css)"},
+    "copyrights": {"html":"content-post", "article":".home/copyright.md", "id":"copyright", "styleContainer":"background:white;height:60px;color:#787878;", "styleArticle":"url(./pages/common/copyrights.styleArticle.css)"},
+    "submit": {"type":"submit", "html":"input", "onClick":"window.monkshu_env.components['form-generator'].submit('contactform','window.webscrolls_env.contactform.submit_product()')","class":"submitbutton"}
+
+}
+======
+
+
+LAYOUT
+=================
+-----------------------------------
+| navbar                          |
+-----------------------------------
+| headerimg                       |
+-----------------------------------
+| messageus                       |
+-----------------------------------
+| contactform  |  productcheckbox |
+-----------------------------------
+| submit                          |
+-----------------------------------
+| partnership                     |
+-----------------------------------
+| email                           |
+-----------------------------------
+| locations                       |
+-----------------------------------
+| footer                          |
+-----------------------------------
+| copyrights                      |
+-----------------------------------
+=================
+Row Heights = 50px, 500px
+Col Widths = 50% 50%
+=================
+
+CSS CLASSES
+===========
+CONTAINER CLASSES = grid-container-extension
+ITEM CLASSES = grid-item-extension
+PER ITEM CLASS = class
+===========
+
+CSS
+=======
+.grid-container-extension {
+    height: 100%;
+    min-width: 60em;
+}
+
+.grid-item-extension {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+body {
+    margin: 0%;
+}
+
+.submitbutton {
+    width: 15%;
+    border: 0;
+    background: #0f4b9c;
+    color: white;
+    font-family: Raleway;
+    font-size: 16px; 
+    color: #ffffff; 
+    font-weight: 500; 
+    text-align: center; 
+    font-style: normal;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px 12px;
+}
+
+.submitbutton:hover {
+    background-color: #0954c3;
+}
+
+.class-submit {
+    padding: 30px 0 60px 0;
+    text-align: center
+}
+
+.class-email, .class-locations { padding-bottom: 40px; }
+==============

@@ -1,0 +1,41 @@
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    line-height: 1.6;
+    font-family: Raleway;
+    font-weight: 500;
+    color: #000;
+}
+article {
+    background: #efefef;
+    padding: 75px 150px;
+    color: #000;
+}
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #0f4b9c;
+    font-family: Raleway;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+body {
+    margin: 0;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  
+    article {
+        padding: 75px 40px;
+    }
+
+    h1 {
+        font-size: 1.7em;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+}
+

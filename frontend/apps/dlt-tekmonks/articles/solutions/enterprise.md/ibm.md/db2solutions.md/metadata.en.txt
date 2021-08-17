@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+	"name": "IBM DB2 Solutions",
+	"description": "IBM DB2 database software is designed to help enterprises have the best possible experiences with their chosen platforms. The solutions associated with this particular IBM database include DB2 implementation fixes, administration and maintenance of DB2 environments, troubleshooting services, diagnosis of various technical issues, and more. TekMonks’ IBM DB2 solutions is that we provide ongoing and customized support to meet each need and accommodate any existing issues.",
+	"image": [{
+		"@type": "ImageObject",
+		"url": "https://tekmonks.com/apps/tekmonks/articles/solutions/enterprise.md/ibm.md/db2solutions.md/header.en.png",
+		"name": "IBM DB2 Solutions",
+	"description": "IBM DB2 database software is designed to help enterprises have the best possible experiences with their chosen platforms. The solutions associated with this particular IBM database include DB2 implementation fixes, administration and maintenance of DB2 environments, troubleshooting services, diagnosis of various technical issues, and more. TekMonks’ IBM DB2 solutions is that we provide ongoing and customized support to meet each need and accommodate any existing issues.",
+		"keywords": ["dba services", "dbservices", "ibm database", "ibm db2"],
+		"copyrightHolder": {
+			"@type": "Organization",
+			"name": "TekMonks",
+			"url": "https://tekmonks.com"
+		}
+	}],
+	"publisher": {
+		"@type": "Organization",
+		"name": "TekMonks",
+		"url": "https://tekmonks.com"
+	},
+	"keywords": ["dba services", "dbservices", "ibm database", "ibm db2"]
+}
+</script>

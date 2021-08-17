@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+  {
+	"@context": "http://schema.org",
+	"@type": "Article",
+	"mainEntityOfPage": {
+    		"@type": "WebPage",
+    		"@id": "https://tekmonks.com"
+  	},
+	"name": "IBM WebSphere Services Overview",
+	"description": "TekMonks is proud to provide IBM WebSphere, a software platform which is designed to help enterprises create, consume, and safeguard their applications in a flexible manner. This endgame is achieved via WebSphere software and applications which deal with integration and application infrastructure. All-in-all, IBM WebSphere services exist to fulfill the development and integration needs of various enterprises.",
+	"image": [{
+		"@type": "ImageObject",
+		"url": "https://tekmonks.com/apps/tekmonks/articles/solutions/enterprise.md/ibm.md/webspheresolutions.md/header.en.png",
+		"name": "IBM WebSphere Services Overview",
+		"description": "TekMonks is proud to provide IBM WebSphere, a software platform which is designed to help enterprises create, consume, and safeguard their applications in a flexible manner. This endgame is achieved via WebSphere software and applications which deal with integration and application infrastructure. All-in-all, IBM WebSphere services exist to fulfill the development and integration needs of various enterprises.",
+		"keywords": ["websphere softwares", "websphere application", "ibm mq software", "ibm websphere application", "ibm websphere mq", "IBM websphere services", "websphere software solution"],
+		"copyrightHolder": {
+			"@type": "Organization",
+			"name": "TekMonks",
+			"url": "https://tekmonks.com"
+		}
+	}],
+	"publisher": {
+		"@type": "Organization",
+		"name": "TekMonks",
+		"url": "https://tekmonks.com"
+	},
+	"keywords": ["websphere softwares", "websphere application", "ibm mq software", "ibm websphere application", "ibm websphere mq", "IBM websphere services", "websphere software solution"]
+}
+</script>

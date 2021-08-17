@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "WHO Phishing Emails About COVID-19",
+  "description": "During a time of panic, while the world faces a pandemic, scam and cyber-attacks have spared no time exploiting people’s fear. The internet is flooded with all types of attacks such as phishing emails disguised as a WHO email containing information on COVID-19",
+  "image": "",  
+  "author": {
+    "@type": "Person",
+    "name": "Abby Rose"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "TekMonks",
+    "logo": {
+      "@type": "ImageObject",
+      "url": ""
+    }
+  },
+  "datePublished": "2019-03-24"
+}
+</script>

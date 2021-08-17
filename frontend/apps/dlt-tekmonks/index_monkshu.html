@@ -1,0 +1,46 @@
+<!-- 
+(C) 2015 TekMonks. All rights reserved.
+License: MIT - see enclosed license.txt file.
+The Monkshu Framework
+-->
+<!doctype html>
+<html>
+	
+<head>
+	<!-- Include the monkshu framework -->
+	<script type="text/javascript" src="/framework/js/$$.js"></script>
+
+	<!-- Start the default app -->
+	<script type="module">
+		import {getDefaultRedirect} from "./framework/js/index.mjs";
+		const redirect = async _ => {
+			let defaultApp = await getDefaultRedirect();
+			if (defaultApp) window.location.href = defaultApp;
+		}
+		redirect();
+	</script>
+	<style>
+		div {text-align: center;}
+		.tekmonks-logo {
+			width: auto;
+			height: 25em;
+		}
+
+		.loading-spinner {
+			width: auto;
+			height: 6em;
+		}
+
+	</style>
+</head>
+<body>
+	<div>
+		<div>
+			<img class="tekmonks-logo" src="./img/tekmonks_logo.png"></img>
+		</div>
+		<div>
+			<img class="loading-spinner" src="./img/loading_spinner.svg"></img>
+		</div>
+	</div>	
+</body>
+</html>

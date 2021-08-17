@@ -1,0 +1,46 @@
+<!--
+/* 
+ * (C) 2019 TekMonks. All rights reserved.
+ * License: MIT - see enclosed license.txt file.
+ */
+ -->
+
+ <style>
+    body {margin: 0 auto; padding: 0 auto;}
+    
+    nav {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        transform: translateY(calc(-50% + 27px));
+        font-size: 18px;
+        font-family: Raleway;
+    }
+      
+    /* Display spans items side by side */
+    nav span, nav span a {
+        display: inline;
+        text-decoration: none;
+        font-weight: 500;
+        color: inherit;
+    }
+    
+    nav > span:first-child a::before {
+        content: "↩ ";
+    }
+      
+    /* Add a color on mouse-over */
+    nav span:hover, nav span a:hover {
+        cursor: pointer;
+        color: inherit;
+    }
+    </style>
+    
+    {{{styleBody}}}
+    
+    <nav>
+    {{#crumbs}}
+    <span id="{{{id}}}"><a href="{{{link}}}">{{item}}</a></span>
+    {{/crumbs}}
+    </nav>

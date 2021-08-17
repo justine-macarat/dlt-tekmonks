@@ -1,0 +1,67 @@
+body{
+    text-align: justify;
+    color: black;
+    font-family: Raleway;
+}
+
+article{  
+    width: 100%; 
+    margin: auto; 
+    max-width: 1040px;  
+}
+
+h1 { 
+    color: #A81010; 
+    text-align: center; 
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 20px;
+}
+
+h2{
+    font-size: 30px; 
+    color: #0f4b9c; 
+    font-weight: 600; 
+    text-transform: capitalize; 
+    text-align: center; 
+    font-style: normal;  
+    margin-top: 80px;
+}
+
+p{ 
+    color: #000; 
+    font-weight: 500; 
+    font-style: normal;  
+    text-align: justify;    
+    line-height: 1.5;  
+    padding: 20px;
+}
+
+ul {    
+    list-style: none;  
+    list-style-image: url('./pages/article/liarrow.png')
+}
+
+li p { 
+    float: left; 
+    margin-bottom: 10px; 
+    width: 100%;
+}
+
+ul li{
+    width: 100%; 
+    margin-bottom: 20px; 
+    float: left; 
+    line-height: 1.5;  
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+ul li:last-child { 
+    margin-bottom: 80px;
+}
+
+img {
+    max-width: 100%;
+}
