@@ -1,5 +1,5 @@
 export const i18n = {
-    "Title" : "TekMonks",
+    "Title" : "DeepLogicTech",
     "cybersecurity": "Cybersecurity",
     "managedservices": "Cloud and Managed Services",
     "enterprisesolutions.md": "Enterprise Solutions",

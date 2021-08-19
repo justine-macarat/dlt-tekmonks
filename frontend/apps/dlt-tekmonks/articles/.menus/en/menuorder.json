@@ -43,17 +43,6 @@
         },
         {
             "level1": {
-                "item": "TekMonks Social",
-                "hasLevelTwo": true,
-                "level2": [
-                    {
-                        "item": "Blog"
-                    }
-                ]
-            }
-        },
-        {
-            "level1": {
                 "item": "Company",
                 "hasLevelTwo": true,
                 "level2": [
