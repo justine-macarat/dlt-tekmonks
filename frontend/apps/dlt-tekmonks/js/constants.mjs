@@ -2,8 +2,8 @@
  * (C) 2015 TekMonks. All rights reserved.
  * License: MIT - see enclosed license.txt file.
  */
-const FRONTEND = "http://104.236.42.145:8080";
-const BACKEND = "http://104.236.42.145:9090";
+const FRONTEND = "http://162.243.173.102:8080/";
+const BACKEND = "http://162.243.173.102:9090/";
 const APP_PATH = `${FRONTEND}/apps/dlt-tekmonks`;
 const API_PATH = `${BACKEND}/apps/dlt-tekmonks`;
 

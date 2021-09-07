@@ -50,3 +50,11 @@ table td {
 td a:hover h3 {
     color: #a81010;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    table td {
+        display: block;
+        width: 100%;
+    }
+
+}

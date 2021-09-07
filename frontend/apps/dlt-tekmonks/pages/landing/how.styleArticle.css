@@ -9,7 +9,7 @@
     height: 6em;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) {
   
     img {
         height: 15vh;

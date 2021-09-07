@@ -66,13 +66,6 @@ body {
     margin: 0%;
 }
 
-@media (min-width: 320px) and (max-width: 1024px) {
-  
-    div.class-footer {
-        display: none;
-    }
-}
-
 @media (min-width: 1025px){
   
   div.class-mobilefooter {
@@ -80,4 +73,13 @@ body {
   }
   
 }
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  
+    div.class-footer {
+        display: none;
+    }
+}
+
+
 =======

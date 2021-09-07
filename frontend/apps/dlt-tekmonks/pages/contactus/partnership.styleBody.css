@@ -1,0 +1,25 @@
+body{
+    padding:30px;
+    box-sizing:border-box;
+    font-family: Raleway;
+} 
+
+h1{
+    font-weight:bold; 
+    color: #07439c; 
+    text-align: center;
+}
+
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+  
+    h1 {
+        font-size: 1em;
+    }
+}

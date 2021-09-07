@@ -2,13 +2,15 @@ SCHEMA
 ======
 {
     "navbar": {"html":"navigation-menu", "level":".menus/{{lang}}", "logo":"./articles/.home/logo.png/logo.png", "massage_menu":"true", "styleBody":"url(./pages/home/navbar.styleBody.css)", "logo_style":"width:70px;", "menu_arrow":"&nbsp;?"},
-    "headerimg": {"html":"img", "src":"./articles/{{url.article_path}}/header.{{lang}}.png", "style":"height:500px;width:100%; object-fit:cover"},
-    "messageus": {"html":"content-post", "article":"{{url.article_path}}/messageus.md", "id":"messageus", "style":"display:inline-block;background:#efefef;width:100%;padding:0;", "styleContainer":"display:inline-block;", "styleBody":"body{padding:30px;box-sizing:border-box;font-family: Raleway;} h1{font-size: 2em; font-weight:bold; color: #07439c; text-align: center;}"},
+    "headerimg": {"html":"img", "src":"./articles/{{url.article_path}}/header.{{lang}}.png", "style":"width:100%; object-fit:cover;"},
+    "messageus": {"html":"content-post", "article":"{{url.article_path}}/messageus.md", "id":"messageus", "style":"display:inline-block;background:#efefef;width:100%;padding:0;", "styleContainer":"display:inline-block;", "styleBody":"url(./pages/contactus/messageus.styleBody.css)"},
     "contactform": {"html":"form-generator", "file":"./forms/contactpage.form", "id":"contactform"},
-    "partnership": {"html":"content-post", "article":"{{url.article_path}}/partnership.md", "id":"partnership", "style":"display:inline-block;background:#efefef;width:100%;padding:0;", "styleContainer":"display:inline-block;", "styleBody":"body{padding:30px;box-sizing:border-box;font-family: Raleway;} h1{font-size: 2em; font-weight:bold; color: #07439c; text-align: center;}"},
+    "mobilecontactform": {"html":"form-generator", "file":"./forms/mobilecontactpage.form", "id":"mobilecontactform"},
+    "partnership": {"html":"content-post", "article":"{{url.article_path}}/partnership.md", "id":"partnership", "style":"display:inline-block;background:#efefef;width:100%;padding:0;", "styleContainer":"display:inline-block;", "styleBody":"url(./pages/contactus/partnership.styleBody.css)"},
     "email": {"html":"content-post", "article":"{{url.article_path}}/email.md", "id":"email", "style":"padding-bottom:40px;background:rgba(255,255,255);padding-top:20px;padding-left:80px;padding-right:80px;", "styleArticle":"url(./pages/contactus/contactus.styleArticle.css)"},
     "locations": {"html":"content-post", "article":"{{url.article_path}}/locations.md", "id":"locations", "style":"padding-bottom:40px;background:rgba(255,255,255);padding-top:20px;padding-left:80px;padding-right:80px;", "styleArticle":"url(./pages/contactus/contactus.styleArticle.css)", "styleBody":"td:not(:last-child) {border-right : solid 1px #efefef;}"},
     "footer": {"html":"content-post", "article":".home/footer.md", "id":"footer", "styleContainer":"background:rgba(255, 255, 255);color:white;height:270px", "styleArticle":"url(./pages/common/footer.styleArticle.css)"},
+    "mobilefooter": {"html":"content-post", "article":".home/mobilefooter.md", "id":"mobilefooter", "styleContainer":"background:rgba(255, 255, 255);color:white;", "styleArticle":"url(./pages/common/mobilefooter.styleArticle.css)"},
     "copyrights": {"html":"content-post", "article":".home/copyright.md", "id":"copyright", "styleContainer":"background:white;height:60px;color:#787878;", "styleArticle":"url(./pages/common/copyrights.styleArticle.css)"}
 }
 ======
@@ -25,6 +27,8 @@ LAYOUT
 -----------------------------
 | contactform               |
 -----------------------------
+| mobilecontactform         |
+-----------------------------
 | partnership               |
 -----------------------------
 | email                     |
@@ -33,10 +37,12 @@ LAYOUT
 -----------------------------
 | footer                    |
 -----------------------------
+| mobilefooter              |
+-----------------------------
 | copyrights                |
 -----------------------------
 =================
-Row Heights = 50px, 500px
+Row Heights = 50px
 Col Widths = 100%
 =================
 
@@ -57,9 +63,44 @@ CSS
     background-color: rgba(255, 255, 255, 1);
 }
 
-body {
-    margin: 0%;
-}
+body { margin: 0%;}
+
+.class-messageus { margin-top: -4px;}
 
 .class-email, .class-locations { padding-bottom: 40px; }
+
+
+@media (min-width: 1025px){
+  
+  div.class-mobilefooter {
+      display: none;
+  }
+
+   div.class-mobilecontactform {
+        display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  div.class-footer {
+        display: none;
+  }
+
+  div.class-mobilecontactform {
+        display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  
+    div.class-footer {
+        display: none;
+    }
+
+    div.class-contactform {
+        display: none;
+    }
+}
+
 ==============
