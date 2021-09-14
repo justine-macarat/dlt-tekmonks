@@ -3,7 +3,7 @@ SCHEMA
 {
     "metadata": {"html":"page-meta", "files":"./pages/home/metadata.{{lang}}.txt"},
 
-    "navbar": {"html":"navigation-menu", "level":".menus/{{lang}}", "logo":"./articles/.home/logo.png/logo.png", "massage_menu":"true", "styleBody":"url(./pages/home/navbar.styleBody.css)", "logo_style":"width:70px;"},
+    "navbar": {"html":"navigation-menu", "level":".menus/{{lang}}", "logo":"./articles/.home/logo.png/logo.png", "massage_menu":"true", "styleBody":"url(./pages/home/navbar.styleBody.css)"},
 
     "headline": {"html":"image-slider", "path":".home/headlineimages", "pause":12000, "transition":800, "styleBody":"url(./pages/home/headline.styleBody.css)", "dot_style":"background: rgba(255, 255, 255, 0.6); width, height: 10px", "selected_dot_style":"background: rgba(255, 255, 255, 0.95)", "chevron_style":"font-size: 40px;background: rgba(255, 255, 255, 0.6);color: rgba(0, 0, 0, 0.45);border-radius: 25px;", "caption_style":"max-width:50%; top: -230px;left: 55px;", "style":"height:450px;object-fit:cover;"},
 
@@ -44,7 +44,7 @@ LAYOUT
 | copyrights         |
 ----------------------
 =================
-Row Heights = 0px, 50px, auto, auto, auto, auto, auto, auto, 60px
+Row Heights = 0px, 120px, auto, auto, auto, auto, auto, auto, 60px
 Col Widths = 100%
 =================
 

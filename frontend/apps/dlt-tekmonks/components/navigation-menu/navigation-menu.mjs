@@ -36,6 +36,9 @@ function enableRightColumnContent(searchElement, id) {
 	const elementDescriptions = searchElement.parentElement.parentElement.querySelectorAll(".description");
 	elementDescriptions.forEach(element => {if (element.id == id) element.classList.add("visible"); else element.classList.remove("visible");});
 
+	const elementMobileDescriptions = searchElement.parentElement.parentElement.querySelectorAll(".mobile-description");
+	elementMobileDescriptions.forEach(element => {if (element.id == id) element.classList.add("visible"); else element.classList.remove("visible");});
+
 	const elementMenuBgImage = searchElement.parentElement.parentElement.querySelectorAll(".menubgimage");
 	elementMenuBgImage.forEach(element => {if (element.id == id) element.classList.add("visible"); else element.classList.remove("visible");});
 

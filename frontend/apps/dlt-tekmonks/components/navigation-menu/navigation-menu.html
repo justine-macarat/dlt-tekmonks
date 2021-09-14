@@ -20,6 +20,7 @@ body {
     float: left;
     padding-top: 4px;
     box-sizing: border-box;
+    width:70px;
 }
 
 .menudiv {
@@ -43,6 +44,9 @@ body {
     opacity: 0;
     transition-delay: 0.2s;
     border-radius: 0 0 0 20px;
+    top: 50px;
+    left: 10%;
+    min-width: 57em;
 }
 
 .m {
@@ -180,9 +184,51 @@ body {
     }
 }
 
+
 @media (min-width: 320px) and (max-width: 767px) {
     .navbar {
         display: none; 
+    }
+    
+    .m {
+        padding-right: 0px;
+    }
+
+    .logodiv {
+        float: none;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logo {
+        width: 100px;
+    }
+    
+    .menudiv {
+        text-align: center;
+    }
+
+    
+    .mitem {
+        width: 100%;
+        top: 120px;
+        left: 0;
+    }
+
+    div.submenu {
+        font-size: 15px;
+        text-align: center;
+        
+    }
+
+    .left {
+        width: 100vw !important;
+    }
+
+    .close-button{
+        right: 0;
+        left: 0;
     }
 }
 
@@ -192,7 +238,7 @@ body {
 <body>
 <nav class="mobilenavbar"> 
     <div class="logodiv" {{{logostyle}}}>
-    <a href="./index.html"><img class="logo" src="{{logo}}"></a>	
+        <a href="./index.html"><img class="logo" src="{{logo}}"></a>	
     </div>
     <div class="menudiv">
     {{#level1}}
@@ -200,13 +246,12 @@ body {
     {{#hasLevelTwo}}
     <span class="mitem" id="{{id}}">
     {{/hasLevelTwo}}
-    <span class="column right">
-    {{#level2}}
-        <div class="description {{#selected}}visible{{/selected}}" id="{{id}}">{{{description}}}</div>
-                <div class="menubgimage {{#selected}}visible{{/selected}}" id="{{id}}"><img src="./articles/.menus/en/.menubgimage/menu-bg-3.png"></div>
-    {{/level2}}
-    </span>
-        <span class="column left">{{#level2}}<p class="submenu {{#selected}}selected{{/selected}}" onmouseover="monkshu_env.components['navigation-menu'].enableRightColumnContent(this, '{{id}}')">{{item}}</p>{{/level2}}</span>
+        <span class="column left">
+            {{#level2}}
+                <div class="submenu {{#selected}}selected{{/selected}}" onmouseover="monkshu_env.components['navigation-menu'].enableRightColumnContent(this, '{{id}}')">{{item}}
+                </div>
+            {{/level2}}
+        </span>
     {{#hasLevelTwo}}
     </span>
     {{/hasLevelTwo}}

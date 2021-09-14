@@ -1,24 +1,20 @@
 body {
-    height: 50px;
+    height: 120px;
     background: white;
     font-family: Raleway;
 }
-p.submenu {
+div.submenu {
     padding: 10px 0 10px 5px;
     margin: 0px;
     padding-left: 10px;
     color: #444;
 }
-p.submenu.selected {
+div.submenu.selected {
     color: white;
     background-color: #07439c;
     cursor: default;
 }
-.mitem {
-    top: 50px;
-    left: 10%;
-    min-width: 57em;
-}
+
 .left {
     width: 20%;
     background-color: #f8f9f9;
